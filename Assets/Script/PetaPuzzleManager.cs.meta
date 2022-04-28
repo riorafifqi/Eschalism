@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc04e41fa71f0984aa6ce0b557128cc9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - peta: {instanceID: 0}
+  - item1: {fileID: 11400000, guid: 706e6e699e531d14e8edc4f2a8ee5e74, type: 2}
+  - item2: {fileID: 11400000, guid: 15cf7ddceffc4d74cb96bce5d91255dc, type: 2}
+  - paper: {fileID: 11400000, guid: 50491f1a0e84e1649a7d73e8a42ac0ad, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
