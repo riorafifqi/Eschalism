@@ -120,7 +120,11 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 2025
+=======
+  controlID: 22
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
 =======
   controlID: 22
 >>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
@@ -149,7 +153,11 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 1964
+=======
+  controlID: 23
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
 =======
   controlID: 23
 >>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
@@ -178,7 +186,11 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 1965
+=======
+  controlID: 24
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
 =======
   controlID: 24
 >>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
@@ -253,9 +265,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 651
     width: 1466
     height: 288
+=======
+    y: 447
+    width: 1043
+    height: 198
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
 =======
     y: 447
     width: 1043
@@ -348,15 +366,21 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -960
     m_HBaseRangeMax: 960
     m_VBaseRangeMin: -449.5
     m_VBaseRangeMax: 449.5
 =======
+=======
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
     m_HBaseRangeMin: -391.5
     m_HBaseRangeMax: 391.5
     m_VBaseRangeMin: -202.5
     m_VBaseRangeMax: 202.5
+<<<<<<< HEAD
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
+=======
 >>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
@@ -376,10 +400,17 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 1920
       height: 899
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 960, y: 449.5}
+=======
+      width: 783
+      height: 405
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 391.5, y: 202.5}
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
 =======
       width: 783
       height: 405
@@ -393,6 +424,7 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       x: -960
       y: -449.5
       width: 1920
@@ -400,6 +432,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1920, y: 920}
+=======
+      x: -391.5
+      y: -202.5
+      width: 783
+      height: 405
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 783, y: 426}
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
 =======
       x: -391.5
       y: -202.5
@@ -454,6 +495,9 @@ MonoBehaviour:
       m_SelectedIDs: 0cc70000
       m_LastClickedID: 0
       m_ExpandedIDs: 7a81ffffea86ffff
+<<<<<<< HEAD
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
+=======
 >>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -748,9 +792,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 24.012726, y: -1.3260021, z: -2.8516817}
     speed: 2
     m_Value: {x: 24.012726, y: -1.3260021, z: -2.8516817}
+=======
+    m_Target: {x: 13.698997, y: -2.22857, z: -3.7906795}
+    speed: 2
+    m_Value: {x: 13.698997, y: -2.22857, z: -3.7906795}
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
 =======
     m_Target: {x: 13.698997, y: -2.22857, z: -3.7906795}
     speed: 2
@@ -807,9 +857,15 @@ MonoBehaviour:
     m_Value: {x: -0.30696124, y: -0.36452293, z: 0.12866534, w: -0.8696799}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 8.330311
     speed: 2
     m_Value: 8.330311
+=======
+    m_Target: 16.824652
+    speed: 2
+    m_Value: 16.824652
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
 =======
     m_Target: 16.824652
     speed: 2
@@ -1595,7 +1651,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000068300000883000000ca9a3b
+=======
+    m_ExpandedIDs: 
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
 =======
     m_ExpandedIDs: 
 >>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
@@ -1626,7 +1686,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 0
+=======
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
 =======
     m_HadKeyboardFocusLastEvent: 1
 >>>>>>> 6a28876a6fafc8ed2d71446584b4c078fda10bf3
