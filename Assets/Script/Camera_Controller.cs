@@ -11,6 +11,8 @@ public class Camera_Controller : MonoBehaviour
     public bool isRotatable;
     float wait = 0;
 
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +34,12 @@ public class Camera_Controller : MonoBehaviour
             Debug.Log(rotation_ID);
             newRotation = (int)currentRotation.y + 90;
             //transform.Rotate(rotationToAdd * Time.deltaTime, Space.World);
-            
+
+/*            animator.SetFloat("IdleFace", animator.GetFloat("IdleFace") + 2f);
+            if (animator.GetFloat("IdleFace") == 7)
+                animator.SetFloat("IdleFace", 1f);
+            else if (animator.GetFloat("IdleFace") == 6)
+                animator.SetFloat("IdleFace", 0f);*/
         }
 
         if(Input.GetKeyDown(KeyCode.Q) && isRotatable)     // Rotate to Left
@@ -44,7 +51,13 @@ public class Camera_Controller : MonoBehaviour
                 rotation_ID = 3;
             Debug.Log(rotation_ID);
             newRotation = (int)currentRotation.y - 90;
-            //transform.Rotate(-rotationToAdd * Time.deltaTime, Space.World);            
+            //transform.Rotate(-rotationToAdd * Time.deltaTime, Space.World);
+            
+/*            animator.SetFloat("IdleFace", animator.GetFloat("IdleFace") - 2f);
+            if (animator.GetFloat("IdleFace") == 1)
+                animator.SetFloat("IdleFace", 7f);
+            else if (animator.GetFloat("IdleFace") == 0)
+                animator.SetFloat("IdleFace", 6f);*/
         }
         if (wait > 0)
         {

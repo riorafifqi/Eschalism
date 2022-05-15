@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.17980957, g: 0.17980957, b: 0.17980957, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -20451,7 +20451,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8078818, y: 1}
+    m_SensorSize: {x: 2.0292397, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -21428,7 +21428,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.29, y: 0.42}
+  m_Size: {x: 0.78, y: 0.78}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -21449,6 +21449,7 @@ MonoBehaviour:
   rotation_ID: 0
   rotation_speed: 150
   isRotatable: 0
+  animator: {fileID: 1975382137}
 --- !u!114 &1975382134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21463,7 +21464,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player_Rb: {fileID: 1975382135}
   moveSpeed: 3
-  jumpForce: 0
   world_Rotation: {fileID: 1975382133}
   anim: {fileID: 1975382137}
 --- !u!54 &1975382135
@@ -21503,7 +21503,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975382130}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 66609ac281d41fc42b81a77b68b741ee, type: 2}
   m_CullingMode: 0

@@ -13,18 +13,20 @@ public class Player_Movement_Script : MonoBehaviour
 
     private void Awake()
     {
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        moveInput.y = Input.GetAxis("Vertical");
+        moveInput.y = Input.GetAxisRaw("Vertical");
         anim.SetFloat("Vertical", moveInput.y);
-        moveInput.x = Input.GetAxis("Horizontal");
+        moveInput.x = Input.GetAxisRaw("Horizontal");
         anim.SetFloat("Horizontal", moveInput.x);
         anim.SetFloat("Speed", moveInput.sqrMagnitude);
         moveInput.Normalize();
 
+        LastDirection(anim.GetFloat("Horizontal"), anim.GetFloat("Vertical"));
         //player_Rb.velocity = new Vector3(moveInput.x * moveSpeed, player_Rb.velocity.y, moveInput.y * moveSpeed);
         Player_Movement_Adjustment();
     }
@@ -72,5 +74,26 @@ public class Player_Movement_Script : MonoBehaviour
         {
 
         }*/
+    }
+
+    void LastDirection(float x, float y)
+    {
+        if (x == 0 && y == 1)
+            anim.SetFloat("IdleFace", 0);   // Back
+        else if (x == 1 && y == 1)
+            anim.SetFloat("IdleFace", 1);   // BackRight
+        else if (x == 1 && y == 0)
+            anim.SetFloat("IdleFace", 2);   // Right
+        else if (x == 1 && y == -1)
+            anim.SetFloat("IdleFace", 3);   // FrontRight
+        else if (x == 0 && y == -1)
+            anim.SetFloat("IdleFace", 4);   // Front
+        else if (x == -1 && y == -1)
+            anim.SetFloat("IdleFace", 5);   // FrontLeft
+        else if (x == -1 && y == 0)
+            anim.SetFloat("IdleFace", 6);   // Left
+        else if (x == -1 && y == 1)
+            anim.SetFloat("IdleFace", 7);   // BackLeft
+
     }
 }
