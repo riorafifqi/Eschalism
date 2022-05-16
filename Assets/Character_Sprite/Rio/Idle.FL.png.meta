@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 130
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,10 +66,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -987,7 +987,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle.FL_36: -435288535
       Idle.FL_37: -442352981
       Idle.FL_12: -679572079
       Idle.FL_0: 106188746
@@ -1023,11 +1022,12 @@ TextureImporter:
       Idle.FL_2: -258193136
       Idle.FL_34: -463805458
       Idle.FL_23: 1160990298
+      Idle.FL_27: 1055330003
       Idle.FL_14: 567972673
       Idle.FL_11: -1774904590
-      Idle.FL_25: -1284658913
-      Idle.FL_27: 1055330003
+      Idle.FL_36: -435288535
       Idle.FL_35: 1150373545
+      Idle.FL_25: -1284658913
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
