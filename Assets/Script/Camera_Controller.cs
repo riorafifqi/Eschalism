@@ -12,6 +12,8 @@ public class Camera_Controller : MonoBehaviour
     float wait = 0;
 
     public Animator animator;
+    private float newFace;
+    private float currentFace;
 
     // Start is called before the first frame update
     void Start()
@@ -24,8 +26,28 @@ public class Camera_Controller : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && isRotatable) // Rotate to right
+        if (Input.GetKeyDown(KeyCode.E) && isRotatable) // Rotate to right
         {
+            int count = 0;
+            currentFace = animator.GetFloat("IdleFace");
+            while (count != 2)
+            {
+                newFace = currentFace--;
+                if (newFace == -1)
+                {
+                    newFace = 7;
+                }
+            }
+
+            while(animator.GetFloat("IdleFace") != newFace)
+            {
+                animator.SetFloat("IdleFace", animator.GetFloat("IdleFace") - 1.0f * Time.deltaTime);
+                if (animator.GetFloat("IdleFace") == -1)
+                {
+                    animator.SetFloat("IdleFace", 7);
+                }
+            }
+
             // Increase rotation ID
             wait = 1f;
             rotation_ID++;
@@ -33,17 +55,38 @@ public class Camera_Controller : MonoBehaviour
                 rotation_ID = 0;
             Debug.Log(rotation_ID);
             newRotation = (int)currentRotation.y + 90;
-            //transform.Rotate(rotationToAdd * Time.deltaTime, Space.World);
 
-/*            animator.SetFloat("IdleFace", animator.GetFloat("IdleFace") + 2f);
-            if (animator.GetFloat("IdleFace") == 7)
-                animator.SetFloat("IdleFace", 1f);
-            else if (animator.GetFloat("IdleFace") == 6)
-                animator.SetFloat("IdleFace", 0f);*/
+/*            while (count != 2)
+            {
+                animator.SetFloat("IdleFace", animator.GetFloat("IdleFace") - 1.0f * Time.deltaTime);
+                if (animator.GetFloat("IdleFace") == -1)
+                    animator.SetFloat("IdleFace", 7);
+                count++;
+            }*/
         }
 
         if(Input.GetKeyDown(KeyCode.Q) && isRotatable)     // Rotate to Left
         {
+            int count = 0;
+            currentFace = animator.GetFloat("IdleFace");
+            while (count != 2)
+            {
+                newFace = currentFace++;
+                if(newFace == 8)
+                {
+                    newFace = 0;
+                }
+            }
+
+            while (animator.GetFloat("IdleFace") != newFace)
+            {
+                animator.SetFloat("IdleFace", animator.GetFloat("IdleFace") + 1.0f * Time.deltaTime);
+                if (animator.GetFloat("IdleFace") == 8)
+                {
+                    animator.SetFloat("IdleFace", 0);
+                }
+            }
+
             // Decrease Rotation ID
             wait = 1f;
             rotation_ID--;
@@ -51,14 +94,17 @@ public class Camera_Controller : MonoBehaviour
                 rotation_ID = 3;
             Debug.Log(rotation_ID);
             newRotation = (int)currentRotation.y - 90;
-            //transform.Rotate(-rotationToAdd * Time.deltaTime, Space.World);
-            
-/*            animator.SetFloat("IdleFace", animator.GetFloat("IdleFace") - 2f);
-            if (animator.GetFloat("IdleFace") == 1)
-                animator.SetFloat("IdleFace", 7f);
-            else if (animator.GetFloat("IdleFace") == 0)
-                animator.SetFloat("IdleFace", 6f);*/
+
+/*            while (count != 2)
+            {
+                animator.SetFloat("IdleFace", animator.GetFloat("IdleFace") + 1.0f * Time.deltaTime);
+                if (animator.GetFloat("IdleFace") == 8)
+                    animator.SetFloat("IdleFace", 0);
+                count++;
+            }*/
+
         }
+
         if (wait > 0)
         {
             wait -= Time.deltaTime;
