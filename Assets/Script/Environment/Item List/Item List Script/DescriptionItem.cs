@@ -10,7 +10,7 @@ public class DescriptionItem : Item
     public override void Use()
     {
         base.Use();
-        GameObject.Find("DialogManager").GetComponent<DIalogManager>().useDialog(this.description);
+        //GameObject.Find("DialogManager").GetComponent<DIalogManager>().useDialog(this.description);
         Debug.Log("Description Effect Activate");
     }
 }

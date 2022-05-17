@@ -7,10 +7,29 @@ public class ObjectInteraction : Interactable
     public bool isActive = false;
     public string desc;
 
+    public Dialogue dialogue;
+    private DIalogManager dialogManager;
+
+    private void Start()
+    {
+        dialogManager = FindObjectOfType<DIalogManager>();
+    }
+
     public override void Interact()
     {
         base.Interact();
-        GameObject.Find("DialogManager").GetComponent<DIalogManager>().useDialog(desc);
+        dialogManager.StartDialogue(dialogue);
     }
+
+    public override void Update()
+    {
+        base.Update();
+        if (Input.anyKeyDown)
+        {
+            dialogManager.NextSentence();
+        }
+        
+    }
+
 }
 

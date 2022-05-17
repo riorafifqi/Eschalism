@@ -41,7 +41,7 @@ public class Interactable : MonoBehaviour
         {
             // Insert "if near, highlight object" code here
             outline.enabled = true;
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            if (Input.GetKeyDown(KeyCode.F))
             {
                 Interact();                    
             }

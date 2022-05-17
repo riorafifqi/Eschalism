@@ -18,7 +18,7 @@ public class InteractLockedDoor : Interactable
 
         } else
         {
-            GameObject.Find("DialogManager").GetComponent<DIalogManager>().useDialog("Its Locked");
+            //GameObject.Find("DialogManager").GetComponent<DIalogManager>().useDialog("Its Locked");
         }
     }
 }
