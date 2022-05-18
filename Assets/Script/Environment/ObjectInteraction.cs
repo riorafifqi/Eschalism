@@ -17,18 +17,7 @@ public class ObjectInteraction : Interactable
 
     public override void Interact()
     {
-        base.Interact();
         dialogManager.StartDialogue(dialogue);
-    }
-
-    public override void Update()
-    {
-        base.Update();
-        if (Input.anyKeyDown)
-        {
-            dialogManager.NextSentence();
-        }
-        
     }
 
 }

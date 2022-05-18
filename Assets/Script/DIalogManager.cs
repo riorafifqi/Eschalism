@@ -40,7 +40,7 @@ public class DIalogManager : MonoBehaviour
 
     public void EndDialogue()
     {
-
+        Debug.Log("End of dialogue");
     }
 
 
