@@ -8,8 +8,6 @@ public class Pazel_listrik_manager : MonoBehaviour
     public GameObject[] lampu;
     public bool allIsFixed;
 
-    static bool isLightFixed = false;
-
     private void Start()
     {
         ctekan = GameObject.FindGameObjectsWithTag("ctekan");
@@ -27,7 +25,6 @@ public class Pazel_listrik_manager : MonoBehaviour
             }
         }
         fixedLight(allIsFixed);
-        isLightFixed = true;
     }
 
     void fixedLight(bool s)
