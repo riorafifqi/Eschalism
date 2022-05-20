@@ -20451,7 +20451,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2093024, y: 1}
+    m_SensorSize: {x: 2.0947177, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -21493,8 +21493,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.26789826, y: 0.97270244, z: 0.029539019}
-  m_Center: {x: 0.0022190511, y: 0.030969892, z: 0.030014314}
+  m_Size: {x: 0.26789826, y: 0.9418571, z: 0.02953902}
+  m_Center: {x: 0.0022190511, y: 0.046392582, z: 0.030014174}
 --- !u!95 &1975382137
 Animator:
   serializedVersion: 4
