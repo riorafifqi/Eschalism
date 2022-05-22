@@ -2202,6 +2202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 300821141}
   - component: {fileID: 300821142}
+  - component: {fileID: 300821143}
   m_Layer: 5
   m_Name: DialogManager
   m_TagString: Untagged
@@ -2237,7 +2238,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 300821140}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d5e30888dc37bf54d80e541ad8170165, type: 3}
   m_Name: 
@@ -2245,6 +2246,20 @@ MonoBehaviour:
   active: 0
   dialogBox: {fileID: 1823550207}
   text: {fileID: 966754098}
+--- !u!114 &300821143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300821140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264142dad00a7094b947e7ce515be4de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 966754100}
+  dialogueBox: {fileID: 1823550207}
 --- !u!1 &321334098 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8502131742432264556, guid: 7ac248633ce017a45af3b92c659460d9, type: 3}
@@ -2823,6 +2838,7 @@ MonoBehaviour:
   objectLocalPos: {x: 0, y: 0, z: 0}
   isActive: 0
   desc: it looks like someone is planning something...
+  trigger: {fileID: 0}
 --- !u!64 &341167745
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2837,6 +2853,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2939890823164971401, guid: 7ac248633ce017a45af3b92c659460d9, type: 3}
+--- !u!114 &341167749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341167735}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7842987c519c84dad3a10e6cb5369c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - It looks like someone is planning something...
 --- !u!1 &353587028
 GameObject:
   m_ObjectHideFlags: 0
@@ -20451,7 +20483,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.0947177, y: 1}
+    m_SensorSize: {x: 2.007371, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -23295,6 +23327,7 @@ MonoBehaviour:
   objectLocalPos: {x: 0, y: 0, z: 0}
   isActive: 0
   desc: a bunch of missing person posters
+  trigger: {fileID: 8345778282863010915}
 --- !u!64 &8345778282863010911
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23309,6 +23342,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 649334472747351569, guid: 7ac248633ce017a45af3b92c659460d9, type: 3}
+--- !u!114 &8345778282863010915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8345778282863010905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7842987c519c84dad3a10e6cb5369c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - A bunch of missing poster's
+    - I wonder if my sister's poster is here
 --- !u!1 &8409069714601850802 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -814302321182495231, guid: 7ac248633ce017a45af3b92c659460d9, type: 3}
@@ -23345,6 +23395,23 @@ MonoBehaviour:
   unlocked: 0
   key: {fileID: 11400000, guid: 706e6e699e531d14e8edc4f2a8ee5e74, type: 2}
   levelLoader: {fileID: 903250125}
+--- !u!114 &8433278014113117623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6768743272781540669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7842987c519c84dad3a10e6cb5369c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - It's Locked!
+    - The key must be somewhere around here
 --- !u!1 &8612752050675135469 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8612752051756116574, guid: 7ac248633ce017a45af3b92c659460d9, type: 3}
@@ -23502,6 +23569,23 @@ MonoBehaviour:
   objectLocalPos: {x: 0, y: 0, z: 0}
   isActive: 0
   desc: a body bag?
+  trigger: {fileID: 0}
+--- !u!114 &9055564971409834434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9055564971409834422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7842987c519c84dad3a10e6cb5369c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - A body bag?
 --- !u!64 &9067932810683738654
 MeshCollider:
   m_ObjectHideFlags: 0

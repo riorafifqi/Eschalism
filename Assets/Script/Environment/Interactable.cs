@@ -25,7 +25,7 @@ public class Interactable : MonoBehaviour
         object_rb = gameObject.GetComponent<Rigidbody>();
     }
 
-    private void Start()
+    public virtual void Start()
     {
         outline.OutlineMode = Outline.Mode.OutlineVisible;
         outline.OutlineColor = Color.yellow;

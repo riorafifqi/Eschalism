@@ -8,6 +8,14 @@ public class InteractLockedDoor : Interactable
     public Item key;
     public LevelLoaderScript levelLoader;
 
+    private DialogueTrigger trigger;
+
+    public override void Start()
+    {
+        base.Start();
+        trigger = gameObject.GetComponent<DialogueTrigger>();
+    }
+
     public override void Interact()
     {
         if(Inventory.instance.have(key))
@@ -16,9 +24,9 @@ public class InteractLockedDoor : Interactable
             unlocked = true;
             levelLoader.LoadNextLevel();
 
-        } else
+        } else 
         {
-            GameObject.Find("DialogManager").GetComponent<DIalogManager>().useDialog("Its Locked");
+            trigger.TriggerDialogue();
         }
     }
 }
