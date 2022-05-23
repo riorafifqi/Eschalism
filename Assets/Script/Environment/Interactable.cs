@@ -7,7 +7,7 @@ public class Interactable : MonoBehaviour
     public float radius = 3f;
     protected float outlineWidth = 1f;
     protected GameObject player;
-    protected Outline outline;
+    protected Highlight highlight;
     public Vector3 objectLocalPos;
     protected Rigidbody object_rb;
     protected Vector3 objectCenter;
@@ -21,15 +21,12 @@ public class Interactable : MonoBehaviour
     public virtual void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        outline = gameObject.AddComponent<Outline>();
         object_rb = gameObject.GetComponent<Rigidbody>();
+        highlight = gameObject.AddComponent<Highlight>();
     }
 
     public virtual void Start()
     {
-        outline.OutlineMode = Outline.Mode.OutlineVisible;
-        outline.OutlineColor = Color.yellow;
-        outline.OutlineWidth = outlineWidth;
         objectCenter = gameObject.GetComponent<Collider>().bounds.center;
     }
 
@@ -40,21 +37,21 @@ public class Interactable : MonoBehaviour
         if (Vector3.Distance(player.transform.position, objectCenter) < radius)
         {
             // Insert "if near, highlight object" code here
-            outline.enabled = true;
+            highlight.enabled = true;
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
                 Interact();                    
             }
         } else
         {
-            outline.enabled = false;
+            highlight.enabled = false;
         }
     }
 
     public virtual void Interact()
     {
         Debug.Log("Interacting with " + this.name);
-        outline.enabled = false;
+        highlight.enabled = false;
     }
 
 }

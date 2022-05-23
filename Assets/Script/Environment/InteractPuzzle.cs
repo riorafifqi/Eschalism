@@ -15,7 +15,7 @@ public class InteractPuzzle : Interactable
         if (Vector3.Distance(player.transform.position, objectCenter) < radius)
         {
             // Insert "if near, highlight object" code here
-            outline.enabled = !isActive;
+            highlight.enabled = !isActive;
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
                 if(!isActive)
@@ -30,7 +30,7 @@ public class InteractPuzzle : Interactable
             }
         } else
         {
-            outline.enabled = false;
+            highlight.enabled = false;
             isActive = false;
         }
 
