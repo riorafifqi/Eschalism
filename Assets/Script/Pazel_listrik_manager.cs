@@ -7,9 +7,13 @@ public class Pazel_listrik_manager : MonoBehaviour
     public GameObject[] ctekan;
     public GameObject[] lampu;
     public bool allIsFixed;
+    public int triggerOnce = 1;
+
+    public DialogueTrigger trigger;
 
     private void Start()
     {
+        trigger = GameObject.Find("SecondPhase").GetComponent<DialogueTrigger>();
         ctekan = GameObject.FindGameObjectsWithTag("ctekan");
         lampu = GameObject.FindGameObjectsWithTag("lampu");
     }
@@ -25,6 +29,17 @@ public class Pazel_listrik_manager : MonoBehaviour
             }
         }
         fixedLight(allIsFixed);
+
+        if(allIsFixed)
+        {
+            if (triggerOnce == 1)
+            {
+                trigger.TriggerDialogue();
+                triggerOnce--;
+            }
+
+
+        }
     }
 
     void fixedLight(bool s)

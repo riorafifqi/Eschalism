@@ -38,11 +38,12 @@ public class Interactable : MonoBehaviour
         {
             // Insert "if near, highlight object" code here
             highlight.enabled = true;
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            if (Input.GetKeyDown(KeyCode.F)  && !DialogueManager.isInDialogue)
             {
-                Interact();                    
+                Interact();
             }
-        } else
+        }
+        else
         {
             highlight.enabled = false;
         }

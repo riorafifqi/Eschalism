@@ -16,7 +16,7 @@ public class InteractPuzzle : Interactable
         {
             // Insert "if near, highlight object" code here
             highlight.enabled = !isActive;
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            if (Input.GetKeyDown(KeyCode.F) && !DialogueManager.isInDialogue)
             {
                 if(!isActive)
                 {
@@ -36,5 +36,10 @@ public class InteractPuzzle : Interactable
 
         obj.SetActive(isActive);
         cam.SetActive(isActive);
+    }
+
+    public override void Interact()
+    {
+        base.Interact();
     }
 }

@@ -6,7 +6,8 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    private Queue<string> sentences;
+    public Queue<string> sentences;
+    public static bool isInDialogue = false;
 
     public TMP_Text dialogueText;
     public GameObject dialogueBox;
@@ -20,14 +21,16 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            FindObjectOfType<DialogueManager>().DisplayNext();
+            if (isInDialogue == true)
+                FindObjectOfType<DialogueManager>().DisplayNext();
         }
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
+        isInDialogue = true;
         dialogueBox.SetActive(true);
         sentences.Clear();
 
@@ -35,12 +38,12 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
-
         DisplayNext();
     }
 
     public void DisplayNext()
     {
+        Debug.Log("Next Dialogue");
         if (sentences.Count == 0)
         {
             EndDialogue();
@@ -63,6 +66,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
+        isInDialogue = false;
         dialogueBox.SetActive(false);
         Debug.Log("End Dialogue");
     }

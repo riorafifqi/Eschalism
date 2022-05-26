@@ -7,6 +7,7 @@ using TMPro;
 public class DescriptionItem : Item
 {
     public string description;
+    public DialogueTrigger dialogue;
     public override void Use()
     {
         base.Use();
