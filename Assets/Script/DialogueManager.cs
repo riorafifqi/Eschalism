@@ -8,6 +8,8 @@ public class DialogueManager : MonoBehaviour
 {
     public Queue<string> sentences;
     public static bool isInDialogue = false;
+    public bool isTyping = false;
+    public GameObject nextButton;
 
     public TMP_Text dialogueText;
     public GameObject dialogueBox;
@@ -21,11 +23,18 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (isInDialogue == true)
+            if (isInDialogue == true && !isTyping)
                 FindObjectOfType<DialogueManager>().DisplayNext();
         }
+
+        if (isTyping)
+        {
+            nextButton.SetActive(false);
+        }
+        else
+            nextButton.SetActive(true);
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -56,12 +65,14 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeSentence (string sentence)
     {
+        isTyping = true;
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
             yield return null;
         }
+        isTyping = false;
     }
 
     public void EndDialogue()

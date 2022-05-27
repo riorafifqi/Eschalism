@@ -6,7 +6,7 @@ public class kertas_pick : MonoBehaviour
 {
     private void OnMouseDown()
     {
-        GameObject.Find("kertas").GetComponent<ItemClick>().click();
+        GameObject.Find("kertas").GetComponent<ItemClick>().Click();
         Destroy(gameObject);
     }
 }

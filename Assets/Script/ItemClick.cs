@@ -6,11 +6,11 @@ public class ItemClick : ItemPickup
 {
     private void OnMouseDown()
     {
-        click();
+        Click();
     }
 
-    public void click()
+    public void Click()
     {
-        base.Pickup();
+        base.Interact();
     }
 }

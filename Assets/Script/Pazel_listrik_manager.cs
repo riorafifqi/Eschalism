@@ -6,7 +6,7 @@ public class Pazel_listrik_manager : MonoBehaviour
 {
     public GameObject[] ctekan;
     public GameObject[] lampu;
-    public bool allIsFixed;
+    public static bool allIsFixed;
     public int triggerOnce = 1;
 
     public DialogueTrigger trigger;

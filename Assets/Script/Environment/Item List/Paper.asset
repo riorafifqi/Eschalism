@@ -15,4 +15,7 @@ MonoBehaviour:
   name: Paper
   icon: {fileID: 21300000, guid: 5e67520bca75f7446a02f1356f215f1a, type: 3}
   isDefaultItem: 0
-  description: NA, AN, SA, AF, EU
+  description: AN, EU, SA, NA, AF
+  dialogue:
+    sentences:
+    - SA, AN, AF, NA, EU

@@ -12,6 +12,9 @@ public class PetaPuzzleManager : MonoBehaviour
     public Item item1;
     public Item item2;
     public DescriptionItem paper;
+
+    public DialogueTrigger trigger;
+
     private void Awake()
     {
         System.Text.StringBuilder pw = new System.Text.StringBuilder();
@@ -27,8 +30,11 @@ public class PetaPuzzleManager : MonoBehaviour
                 pw.Append(", ");
             }
             pw.Append(Password[i]);
-        } 
-        paper.description = pw.ToString();
+        }
+        paper.dialogue.sentences[0] = pw.ToString();
+        //paper.description = pw.ToString();
+
+        trigger = GameObject.Find("ThirdPhase").GetComponent<DialogueTrigger>();
     }
 
     private void Update()
@@ -49,6 +55,7 @@ public class PetaPuzzleManager : MonoBehaviour
                 Debug.Log("a");
                 Inventory.instance.Add(item1);
                 Inventory.instance.Add(item2);
+                trigger.TriggerDialogue();
             }
             isFixed = true;
         }

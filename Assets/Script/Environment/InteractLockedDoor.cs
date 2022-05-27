@@ -8,8 +8,6 @@ public class InteractLockedDoor : Interactable
     public Item key;
     public LevelLoaderScript levelLoader;
 
-    private DialogueTrigger trigger;
-
     public override void Start()
     {
         base.Start();

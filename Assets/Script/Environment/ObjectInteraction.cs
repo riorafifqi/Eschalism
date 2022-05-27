@@ -7,7 +7,6 @@ public class ObjectInteraction : Interactable
     public bool isActive = false;
     public string desc;
 
-    public DialogueTrigger trigger;
 
     public override void Start()
     {

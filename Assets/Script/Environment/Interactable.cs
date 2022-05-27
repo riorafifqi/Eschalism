@@ -12,6 +12,9 @@ public class Interactable : MonoBehaviour
     protected Rigidbody object_rb;
     protected Vector3 objectCenter;
 
+    public DialogueTrigger trigger;
+    public bool canInteract = true;
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
@@ -53,6 +56,7 @@ public class Interactable : MonoBehaviour
     {
         Debug.Log("Interacting with " + this.name);
         highlight.enabled = false;
+        Debug.Log("Calling Base Class interact");
     }
 
 }

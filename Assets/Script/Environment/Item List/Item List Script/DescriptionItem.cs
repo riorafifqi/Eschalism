@@ -7,11 +7,12 @@ using TMPro;
 public class DescriptionItem : Item
 {
     public string description;
-    public DialogueTrigger dialogue;
+    public Dialogue dialogue;
     public override void Use()
     {
         base.Use();
-        GameObject.Find("DialogManager").GetComponent<DIalogManager>().useDialog(this.description);
+        // GameObject.Find("DialogManager").GetComponent<DIalogManager>().useDialog(this.description);
         Debug.Log("Description Effect Activate");
+        GameObject.Find("DialogManager").GetComponent<DialogueManager>().StartDialogue(dialogue);
     }
 }

@@ -6,11 +6,17 @@ public class ItemPickup : Interactable
 {
     public Item item;
 
+    public override void Start()
+    {
+        base.Start();
+        trigger = gameObject.GetComponent<DialogueTrigger>();
+    }
+
     public override void Interact()
     {
         base.Interact();
-
         Pickup();
+        trigger.TriggerDialogue();
     }
 
     public void Pickup()
@@ -19,7 +25,8 @@ public class ItemPickup : Interactable
         Debug.Log("Picking Up " + item.name);
         bool wasPicked = Inventory.instance.Add(item);
         // Destroy Game Object
-        if (wasPicked)
-            Destroy(gameObject);
+        Destroy(gameObject);
+        /*if (wasPicked)
+            Destroy(gameObject);*/
     }
 }
