@@ -252,11 +252,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7748cb1974cf5b409a08afcebf1a9a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFlickering: 1
+  isFlickering: 0
   isFixed: 0
   timeDelay: 0
-  minVal: 1
-  maxVal: 2
+  minVal: 0.5
+  maxVal: 1
 --- !u!114 &19336562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6430,7 +6430,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9015025, y: 1}
+    m_SensorSize: {x: 1.879085, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
