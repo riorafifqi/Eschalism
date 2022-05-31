@@ -25,8 +25,8 @@ public class ItemPickup : Interactable
         Debug.Log("Picking Up " + item.name);
         bool wasPicked = Inventory.instance.Add(item);
         // Destroy Game Object
-        Destroy(gameObject);
-        /*if (wasPicked)
-            Destroy(gameObject);*/
+        //Destroy(gameObject);
+        if (wasPicked)
+            Destroy(gameObject);
     }
 }

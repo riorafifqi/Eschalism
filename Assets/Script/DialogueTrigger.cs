@@ -8,6 +8,7 @@ public class DialogueTrigger : MonoBehaviour
 
     public void TriggerDialogue()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        if (!DialogueManager.isInDialogue)  // Only trigger if player currently not in dialogue
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
 }

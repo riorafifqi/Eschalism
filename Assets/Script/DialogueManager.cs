@@ -27,6 +27,7 @@ public class DialogueManager : MonoBehaviour
         {
             if (isInDialogue == true && !isTyping)
                 FindObjectOfType<DialogueManager>().DisplayNext();
+            // DisplayNext only available if dialogue box is active
         }
 
         if (isTyping)
