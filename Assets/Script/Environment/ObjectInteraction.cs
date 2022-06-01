@@ -16,9 +16,10 @@ public class ObjectInteraction : Interactable
 
     public override void Interact()
     {
-        base.Interact();
-        //GameObject.Find("DialogManager").GetComponent<DIalogManager>().useDialog(desc);
         trigger.TriggerDialogue();
+        if (canInteract)
+            base.Interact();
+        //GameObject.Find("DialogManager").GetComponent<DIalogManager>().useDialog(desc);
     }
 }
 

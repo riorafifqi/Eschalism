@@ -9,7 +9,14 @@ public class CoatPickup : Interactable
     public override void Interact()
     {
         base.Interact();
-        animator.SetBool("InCoat", true);
-        Destroy(gameObject);
+        if (canInteract)
+        {
+            animator.SetBool("InCoat", true);
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            trigger.TriggerDialogue();
+        }
     }
 }

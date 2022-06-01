@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class DoorInteractable : Interactable
 {
-    public Animator animator;
     public LevelLoaderScript levelLoader;
 
     public override void Awake()
@@ -16,14 +15,13 @@ public class DoorInteractable : Interactable
     {
         base.Start();
         trigger = gameObject.GetComponent<DialogueTrigger>();
-
     }
 
     public override void Interact()
     {
-        base.Interact();
-        if (animator.GetBool("InCoat"))
+        if(canInteract)
         {
+            base.Interact();
             transform.eulerAngles = new Vector3(0, 45, 0);
             levelLoader.LoadNextLevel();
         }

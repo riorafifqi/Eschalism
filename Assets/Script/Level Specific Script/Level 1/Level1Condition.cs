@@ -8,11 +8,6 @@ public class Level1Condition : MonoBehaviour
     //public DialogueTrigger[] triggers;
     public DialogueTrigger triggerFixLight;
 
-    private void Start()
-    {
-       
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -22,7 +17,6 @@ public class Level1Condition : MonoBehaviour
             {
                 // Change all dialoguetrigger component to dialoguetrigger attached in this component
                 interactables[i].trigger = gameObject.GetComponent<DialogueTrigger>();
-                //interactables[i].CancelInvoke("Interact");
                 interactables[i].canInteract = false;
             }
         }
