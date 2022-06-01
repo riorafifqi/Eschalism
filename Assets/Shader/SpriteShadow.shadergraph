@@ -49,9 +49,6 @@
             "m_Id": "fe54362d33d44935b323e7455895e73b"
         },
         {
-            "m_Id": "25efeddf87624caf9018c9454dfb8cbf"
-        },
-        {
             "m_Id": "be3de2c2022041e8841ab0a11ab9d78f"
         },
         {
@@ -77,6 +74,9 @@
         },
         {
             "m_Id": "f4130d4702b845a58015e90241600697"
+        },
+        {
+            "m_Id": "a05181c68f854f2aa867efac2f876c64"
         }
     ],
     "m_GroupDatas": [],
@@ -248,9 +248,6 @@
                 "m_Id": "fe54362d33d44935b323e7455895e73b"
             },
             {
-                "m_Id": "25efeddf87624caf9018c9454dfb8cbf"
-            },
-            {
                 "m_Id": "9b06c4a1bc9849a78517cdf148dc5033"
             },
             {
@@ -264,6 +261,9 @@
             },
             {
                 "m_Id": "f4130d4702b845a58015e90241600697"
+            },
+            {
+                "m_Id": "a05181c68f854f2aa867efac2f876c64"
             }
         ]
     },
@@ -474,39 +474,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
-    "m_ObjectId": "25efeddf87624caf9018c9454dfb8cbf",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "SurfaceDescription.CoatSmoothness",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "40af7019316b48f4a956c961e10f0c3c"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_SerializedDescriptor": "SurfaceDescription.CoatSmoothness"
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.Rendering.HighDefinition.ShaderGraph.HDLitSubTarget",
     "m_ObjectId": "28a860f5062848a2a421967b74f8bef1"
 }
@@ -681,21 +648,6 @@
     "m_StageCapability": 2,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "40af7019316b48f4a956c961e10f0c3c",
-    "m_Id": 0,
-    "m_DisplayName": "Coat Smoothness",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "CoatSmoothness",
-    "m_StageCapability": 2,
-    "m_Value": 1.0,
-    "m_DefaultValue": 1.0,
     "m_Labels": []
 }
 
@@ -1311,6 +1263,39 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "a05181c68f854f2aa867efac2f876c64",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.DepthOffset",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "b32926e1452e434ea95a1343e9be188d"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.DepthOffset"
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.Rendering.HighDefinition.ShaderGraph.BuiltinData",
     "m_ObjectId": "a2072d4d24234ab384e52526addc42a3",
     "m_Distortion": false,
@@ -1319,7 +1304,7 @@
     "m_AddPrecomputedVelocity": false,
     "m_TransparentWritesMotionVec": false,
     "m_AlphaToMask": true,
-    "m_DepthOffset": false,
+    "m_DepthOffset": true,
     "m_ConservativeDepthOffset": false,
     "m_TransparencyFog": true,
     "m_AlphaTestShadow": true,
@@ -1421,6 +1406,21 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.BaseColor"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "b32926e1452e434ea95a1343e9be188d",
+    "m_Id": 0,
+    "m_DisplayName": "Depth Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "DepthOffset",
+    "m_StageCapability": 2,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
