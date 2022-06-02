@@ -284,10 +284,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   quality:
-    m_OverrideState: 1
-    m_Value: 1
-  threshold:
     m_OverrideState: 0
+    m_Value: 3
+  threshold:
+    m_OverrideState: 1
     m_Value: 0
   intensity:
     m_OverrideState: 1
@@ -312,7 +312,7 @@ MonoBehaviour:
     m_Value: 2
   m_HighQualityPrefiltering:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   m_HighQualityFiltering:
     m_OverrideState: 1
     m_Value: 1
@@ -404,17 +404,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   quality:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 2
   spectralLut:
     m_OverrideState: 0
     m_Value: {fileID: 0}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.421
+    m_Value: 1
   m_MaxSamples:
-    m_OverrideState: 0
-    m_Value: 6
+    m_OverrideState: 1
+    m_Value: 12
 --- !u!114 &2044755723238697290
 MonoBehaviour:
   m_ObjectHideFlags: 3
