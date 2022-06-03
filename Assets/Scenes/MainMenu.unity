@@ -4973,10 +4973,7 @@ MonoBehaviour:
   m_Script: {fileID: 1714087233}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries:
-  - id: 0
-    category: 0
-    gameObject: {fileID: 1542604711}
+  m_Entries: []
 --- !u!4 &474364298
 Transform:
   m_ObjectHideFlags: 19
@@ -6004,7 +6001,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1435210149
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6777,7 +6774,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 2.2005348, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -6917,7 +6914,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1894876207
 MonoBehaviour:
   m_ObjectHideFlags: 0

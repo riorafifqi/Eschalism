@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class Level1Condition : MonoBehaviour
 {
+    public Animator animator;
     public Interactable[] interactables;
     //public DialogueTrigger[] triggers;
     public DialogueTrigger triggerFixLight;
+
+    private void Awake()
+    {
+        animator.SetBool("InCoat", true);
+    }
 
     // Update is called once per frame
     void Update()
