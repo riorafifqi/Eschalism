@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Interactable_MoveObject_2D : Interactable
 {
-    static bool isMoving = false;
+    public static bool isMoving = false;
     public string objectOrientation;
     public float localObjectDifX;   // To get the difference of player and object position in x axis
     public float localObjectDifZ;   // To get the difference of player and object position in z axis
