@@ -22,7 +22,22 @@ public class Interactable_MoveObject_2D : Interactable
     {
         localObjectDifX = Mathf.Abs(objectLocalPos.x);      // u askin' where the objectlocalPos is?
         localObjectDifZ = Mathf.Abs(objectLocalPos.z);      // it's in the Interactable script
-        base.Update();
+
+        objectLocalPos = player.transform.InverseTransformPoint(transform.position);    // get object position local to player
+        if (Vector3.Distance(player.transform.position, transform.position) < radius)
+        {
+            // Insert "if near, highlight object" code here
+            highlight.enabled = true;
+            if (Input.GetKeyDown(KeyCode.F) && !DialogueManager.isInDialogue)
+            {
+                Interact();
+            }
+        }
+        else
+        {
+            highlight.enabled = false;
+        }
+
         if (Vector3.Distance(player.transform.position, transform.position) > radius)   // Object unmovable when not in range
         {
             object_rb.constraints = RigidbodyConstraints.FreezeAll;
