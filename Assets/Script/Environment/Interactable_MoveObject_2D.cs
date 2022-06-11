@@ -4,18 +4,21 @@ using UnityEngine;
 
 public class Interactable_MoveObject_2D : Interactable
 {
-    public static bool isMoving = false;
+    static bool isMoving = false;
     public string objectOrientation;
     public float localObjectDifX;   // To get the difference of player and object position in x axis
     public float localObjectDifZ;   // To get the difference of player and object position in z axis
     public FixedJoint fixedJoint;
     public Camera_Controller camera_c;
 
+    Animator animator;
+
     public override void Awake()
     {
         base.Awake();
         fixedJoint = gameObject.AddComponent<FixedJoint>(); // Add fixedJoint programmitacilay
         camera_c = GameObject.Find("Player").GetComponent<Camera_Controller>();
+        animator = GameObject.Find("Player").GetComponent<Animator>();
     }
 
     public override void Update()
@@ -52,7 +55,8 @@ public class Interactable_MoveObject_2D : Interactable
             fixedJoint.connectedBody = player.GetComponent<Rigidbody>();    // this line connect object and player
             player.GetComponent<Rigidbody>().drag = 3f;
             isMoving = true;
-            camera_c.isRotatable = false;
+            animator.SetBool("isPushing", true);
+            camera_c.enabled = false;
 
             // if-else below to get object position based on player
             // so we can give player a right sprite animation
@@ -63,6 +67,7 @@ public class Interactable_MoveObject_2D : Interactable
                 {
                     Debug.Log("Object on Left");
                     objectOrientation = "Left";
+                    animator.SetFloat("ObjectOrientation", 4);
                     // animation idle push left here
                 }
 
@@ -72,6 +77,7 @@ public class Interactable_MoveObject_2D : Interactable
                     Debug.Log("Object on Right");
                     // animation idle push right here
                     objectOrientation = "Right";
+                    animator.SetFloat("ObjectOrientation", 1);
                     // move based on z or x
 
                 }
@@ -84,6 +90,7 @@ public class Interactable_MoveObject_2D : Interactable
                 {
                     Debug.Log("Object on Front");
                     objectOrientation = "Front";
+                    animator.SetFloat("ObjectOrientation", 2);
                     // animation idle push front here
                     // move based on z or x
 
@@ -95,6 +102,7 @@ public class Interactable_MoveObject_2D : Interactable
                     Debug.Log("Object on Back");
                     objectOrientation = "Back";
                     // animation idle push back here
+                    animator.SetFloat("ObjectOrientation", 0);
                     // move based on z or x
 
                 }
@@ -103,7 +111,8 @@ public class Interactable_MoveObject_2D : Interactable
         } else if (isMoving) { 
             fixedJoint.connectedBody = null;
             isMoving = false;
-            camera_c.isRotatable = true;
+            animator.SetBool("isPushing", false);
+            camera_c.enabled = true;
             objectOrientation = null;
             player.GetComponent<Rigidbody>().drag = 0;
         }
