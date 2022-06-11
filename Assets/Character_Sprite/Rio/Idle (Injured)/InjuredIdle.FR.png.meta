@@ -1,0 +1,2808 @@
+fileFormatVersion: 2
+guid: 65fc927420c3bed4ca5de2714af7a751
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 130
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: InjuredIdle.FR_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349ba1c30912b6b4f9999841e60bc79a
+      internalID: 707667818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2215b61c03693ab4cb3fefa45ef6dc66
+      internalID: 1913270083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_2
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 55
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599e392f0f4b90945b5f680304ba7e5f
+      internalID: -1174229448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406d3ef2e66a5804ba43e44cc2a1d37e
+      internalID: 535457609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_4
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a6692ba5ea430498af4719c0df4b14
+      internalID: 316079740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_5
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7612094d5075b204cbca63898f3d60df
+      internalID: 63205034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_6
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e180a6cfcf21d48a504bcc8f240b72
+      internalID: -1330619390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_7
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be69003e30636f64f92832761ce3b384
+      internalID: -1240177722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_8
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b82f921b5cda634ba93fc3c1c3b79d3
+      internalID: 859722077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_9
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14384c5cd2971db499a7810384f598f7
+      internalID: -957347219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_10
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db29df0585acf0e499be220a43a92956
+      internalID: 795746928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_11
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdd8a2cf99707642b1440e701a0bd23
+      internalID: 60396072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_12
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6f253e11f14fe47b1c7c52a4119bfb
+      internalID: 759182152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_13
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 0
+        width: 55
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da8cf2886c81d84f93958f2c99b7013
+      internalID: -529518912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_14
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9fbeba31d3cdd48813073683e225f6
+      internalID: 1721966797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_15
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdcb9fd77115424285b75b0dca2c6f4
+      internalID: -407640645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_16
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f077815e59efd34ba2c18577e6c0a71
+      internalID: -1001823518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_17
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc68308fc2afbab4bb30da5519a4496f
+      internalID: 1936994537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_18
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 0
+        width: 61
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d546821ad6902f64594ffa25e6749729
+      internalID: -2000048013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_19
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 0
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7539c1a32d5fae4aa32e03d9cc83c7e
+      internalID: -440509210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_20
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550e94104b0ad704bb88d32f0d0322ff
+      internalID: -1286666366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_21
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41709b1bd66a6a4a8733d9a75a24191
+      internalID: -140701225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_22
+      rect:
+        serializedVersion: 2
+        x: 2845
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24942ff944a254e409db95fc6b3f0710
+      internalID: -138431576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_23
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64856b25ee3d77c46845fe1b11fddcff
+      internalID: -776146369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_24
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0b3558d661fc34eb175b0ee7dcf717
+      internalID: -291319365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_25
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bedc0b4b8a73734d8be98bdc0d834bf
+      internalID: 851192283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_26
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e957652efdf724447828014288893d55
+      internalID: -144984430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_27
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0654d4de21bca76449c5da839ceb8033
+      internalID: -1216119921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_28
+      rect:
+        serializedVersion: 2
+        x: 3617
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9f4cfa8402e9447bb3150d466788c2
+      internalID: -200875489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_29
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 0
+        width: 55
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0367554f85dff40bccefb8506162b5
+      internalID: 880758206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_30
+      rect:
+        serializedVersion: 2
+        x: 3874
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735d75dafd5978f4e836ed10c1537d27
+      internalID: -1014589538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_31
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 55
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413a077e05dd56e4cb26317e3874c01d
+      internalID: 381239323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_32
+      rect:
+        serializedVersion: 2
+        x: 4129
+        y: 0
+        width: 55
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3f1d52ccbd2b04db1a90585830a80c
+      internalID: -1982188101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_33
+      rect:
+        serializedVersion: 2
+        x: 4256
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9e5d05612be83428f8998e30fac2e1
+      internalID: -132456182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_34
+      rect:
+        serializedVersion: 2
+        x: 4385
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9ce70571ecd224290f2d6e6d9169a3
+      internalID: -192312123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_35
+      rect:
+        serializedVersion: 2
+        x: 4513
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1115ee7ce4276a64982cbea04b1840ba
+      internalID: 1124185170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_36
+      rect:
+        serializedVersion: 2
+        x: 4642
+        y: 0
+        width: 52
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798c7b9437905694381b04150150b18a
+      internalID: 1278567983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_37
+      rect:
+        serializedVersion: 2
+        x: 4770
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c933a766bbc1941a233179f8ef78b6
+      internalID: 178123132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_38
+      rect:
+        serializedVersion: 2
+        x: 4899
+        y: 0
+        width: 52
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82864320a0bdf74a95d968fb0030178
+      internalID: -1078608341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_39
+      rect:
+        serializedVersion: 2
+        x: 5024
+        y: 0
+        width: 52
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31034e648cd1d24ab00dce411a65210
+      internalID: 996579574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_40
+      rect:
+        serializedVersion: 2
+        x: 5152
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d827f267634d6d143ade14c6612f16ae
+      internalID: 482896742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_41
+      rect:
+        serializedVersion: 2
+        x: 5281
+        y: 0
+        width: 52
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b9b122743cd9f4fbff109ced4af96a
+      internalID: 537515038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_42
+      rect:
+        serializedVersion: 2
+        x: 5409
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3363bc97622629647b232e94a2576f81
+      internalID: 2074635240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_43
+      rect:
+        serializedVersion: 2
+        x: 5538
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b72ccd1126f3045bb8ed0565d12f1b
+      internalID: -1497565817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_44
+      rect:
+        serializedVersion: 2
+        x: 5663
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dc4be0cf332354db05b4df064e3ec2
+      internalID: 674862884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_45
+      rect:
+        serializedVersion: 2
+        x: 5791
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5078045c074e5974aaf10ea38b612a1b
+      internalID: -2080188717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_46
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de967def106e1c44d91454badbf62242
+      internalID: 1356952012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_47
+      rect:
+        serializedVersion: 2
+        x: 6048
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33ed29c293dec340b01b75f942b6afe
+      internalID: -1726048724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_48
+      rect:
+        serializedVersion: 2
+        x: 6177
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fb79b953bfd7b4cb23e6242e03e277
+      internalID: -1362991241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_49
+      rect:
+        serializedVersion: 2
+        x: 6305
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0823dc300610b37439baf49fc0475035
+      internalID: -78226469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_50
+      rect:
+        serializedVersion: 2
+        x: 6434
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8320bb71d64d6e94684b8421082c7fc0
+      internalID: -2078699573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_51
+      rect:
+        serializedVersion: 2
+        x: 6562
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bf4a29ef2afd74cb5d9496d37949a0
+      internalID: -1662973706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_52
+      rect:
+        serializedVersion: 2
+        x: 6689
+        y: 0
+        width: 55
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c745210e14cc44a9277cdfb6a48c65
+      internalID: -1643261328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_53
+      rect:
+        serializedVersion: 2
+        x: 6816
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8de4d0b7049ac46a1afc9ffaaa715f
+      internalID: -664857114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_54
+      rect:
+        serializedVersion: 2
+        x: 6945
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587aabf8a357f3e45a31f598ae4757f8
+      internalID: -2078647880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_55
+      rect:
+        serializedVersion: 2
+        x: 7073
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0347932ceea01774484ba56574c83fb5
+      internalID: -769184035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_56
+      rect:
+        serializedVersion: 2
+        x: 7202
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e768e51f3c6337f449f2968c10a9e3b2
+      internalID: 529177712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_57
+      rect:
+        serializedVersion: 2
+        x: 7330
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1ab5d8cab8f09469a21161483b8e83
+      internalID: 1877566724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_58
+      rect:
+        serializedVersion: 2
+        x: 7459
+        y: 0
+        width: 52
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6020f4e0ada223e4aa97a24e67dfa504
+      internalID: 728757024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_59
+      rect:
+        serializedVersion: 2
+        x: 7587
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a505671c6b06d348afbe36919ae3d65
+      internalID: -999721288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_60
+      rect:
+        serializedVersion: 2
+        x: 7716
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289fca495194ff04e8b396d413a779d1
+      internalID: 189924440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_61
+      rect:
+        serializedVersion: 2
+        x: 7844
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199dc646d8c50294fbda8523c11b4efb
+      internalID: -155231617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_62
+      rect:
+        serializedVersion: 2
+        x: 7973
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1632516b308bd074eabbc1c250532d1b
+      internalID: 1745466333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_63
+      rect:
+        serializedVersion: 2
+        x: 8098
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29b8d079554c6a4282df8df05f1edb0
+      internalID: -1092655337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_64
+      rect:
+        serializedVersion: 2
+        x: 8226
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2784cbc8deeea2c49b1f81009a35de7a
+      internalID: -2066356109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_65
+      rect:
+        serializedVersion: 2
+        x: 8355
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7653ecd3d2898624ebe7a005a7f0d8b0
+      internalID: -909227814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_66
+      rect:
+        serializedVersion: 2
+        x: 8483
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4637b6dffb182d84380e0fafb0db0e84
+      internalID: 1889089463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_67
+      rect:
+        serializedVersion: 2
+        x: 8612
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c37ca4df005cb54ca4ea5410cc5e715
+      internalID: 1242104338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_68
+      rect:
+        serializedVersion: 2
+        x: 8739
+        y: 0
+        width: 54
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd40f0ffa8f69b946ab28d9acce353fe
+      internalID: -447425308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_69
+      rect:
+        serializedVersion: 2
+        x: 8866
+        y: 0
+        width: 59
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e9a8051c4a44d4e871b705073c913b
+      internalID: 302205257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_70
+      rect:
+        serializedVersion: 2
+        x: 8994
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f87389f79af60d4f8ada17f6678bca9
+      internalID: -89170658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_71
+      rect:
+        serializedVersion: 2
+        x: 9122
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe6aac769d0efc49b4e5531f1fc1775
+      internalID: 1913917872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_72
+      rect:
+        serializedVersion: 2
+        x: 9251
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089001da5a9c34a49948b060a8c8baf2
+      internalID: 995383058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_73
+      rect:
+        serializedVersion: 2
+        x: 9379
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38613845242f91b469188f6d59eeacee
+      internalID: -225121826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_74
+      rect:
+        serializedVersion: 2
+        x: 9508
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbda8efecdc522459a3f13eeb90f99b
+      internalID: -252599284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_75
+      rect:
+        serializedVersion: 2
+        x: 9633
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fb0fe650dba7a40a2778868680eb23
+      internalID: -1318130098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_76
+      rect:
+        serializedVersion: 2
+        x: 9761
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e0ad47d86845e44bc030fffd421d71
+      internalID: -1574642898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_77
+      rect:
+        serializedVersion: 2
+        x: 9890
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15e0b2c2f6263947bf5ac3711453e44
+      internalID: 1301198723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_78
+      rect:
+        serializedVersion: 2
+        x: 10016
+        y: 0
+        width: 55
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22897449c4f80c54dab14cd3bdb929ba
+      internalID: 782811628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_79
+      rect:
+        serializedVersion: 2
+        x: 10143
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9012e9de3fcf9946ab903048ebb23e2
+      internalID: 29110055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_80
+      rect:
+        serializedVersion: 2
+        x: 10272
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360f6da955a537341ba371d962b015bc
+      internalID: 731610361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_81
+      rect:
+        serializedVersion: 2
+        x: 10400
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb3bacc284180d41afcb2ec2ac32229
+      internalID: -642270815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_82
+      rect:
+        serializedVersion: 2
+        x: 10529
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa603bc4d1b65524d9e1b4f9ab8a6766
+      internalID: -910577531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_83
+      rect:
+        serializedVersion: 2
+        x: 10656
+        y: 0
+        width: 58
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3799a56561fe42f4694a3b888ba5e32b
+      internalID: -1621344345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_84
+      rect:
+        serializedVersion: 2
+        x: 10783
+        y: 0
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e9a22f1a45a5b45b7bbbc53289f9ee
+      internalID: -400467270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_85
+      rect:
+        serializedVersion: 2
+        x: 10911
+        y: 0
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3265e178b5a2944448b0b4617c8be459
+      internalID: -1637039857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_86
+      rect:
+        serializedVersion: 2
+        x: 11039
+        y: 0
+        width: 61
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbd7219c912cf14e9486e98f3ab98d0
+      internalID: -1298366688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_87
+      rect:
+        serializedVersion: 2
+        x: 11168
+        y: 0
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e66585e024f4b42ace1df108a1a0a2
+      internalID: 1464342787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_88
+      rect:
+        serializedVersion: 2
+        x: 11297
+        y: 0
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8220b9805f7c1574799715747a5052e4
+      internalID: 679099601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_89
+      rect:
+        serializedVersion: 2
+        x: 11425
+        y: 0
+        width: 58
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cad10d93f740e84f86437a3f879d3a8
+      internalID: -1926606310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_90
+      rect:
+        serializedVersion: 2
+        x: 11554
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c73fa2d0a69ee4ba48e1065f366a32
+      internalID: 1593561788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_91
+      rect:
+        serializedVersion: 2
+        x: 11682
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27b084ebbe20ec48b2967ad5fe43725
+      internalID: -638676238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_92
+      rect:
+        serializedVersion: 2
+        x: 11811
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90aa668292b2fa4fb7890735488b111
+      internalID: 2055494454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_93
+      rect:
+        serializedVersion: 2
+        x: 11937
+        y: 0
+        width: 59
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb45dcd482f18c9438ef871493e627fa
+      internalID: -1487168875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_94
+      rect:
+        serializedVersion: 2
+        x: 12068
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3cef6547354fa4a9157b068f0625c6
+      internalID: -1677441978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_95
+      rect:
+        serializedVersion: 2
+        x: 12195
+        y: 0
+        width: 58
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b0e95e71a2223489b0d51cc503eb7f
+      internalID: -723806227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_96
+      rect:
+        serializedVersion: 2
+        x: 12321
+        y: 0
+        width: 61
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bd153a39f31014f9eb1a4d6c6d7fa9
+      internalID: -291423448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_97
+      rect:
+        serializedVersion: 2
+        x: 12450
+        y: 0
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fccf41d78e80641954956366d1b14c
+      internalID: 862019506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_98
+      rect:
+        serializedVersion: 2
+        x: 12578
+        y: 0
+        width: 59
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6f1573a873fed4b85dc770de6751fb
+      internalID: -2058268422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_99
+      rect:
+        serializedVersion: 2
+        x: 12707
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4d06317272b654a8b40003af7a4b66
+      internalID: 267183983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_100
+      rect:
+        serializedVersion: 2
+        x: 12835
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cb24e964b77424b8e9ff0eab3365bc
+      internalID: 1962098684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_101
+      rect:
+        serializedVersion: 2
+        x: 12961
+        y: 0
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa1a02cf774e6244bae77ee45774c03
+      internalID: -1375051180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_102
+      rect:
+        serializedVersion: 2
+        x: 13089
+        y: 0
+        width: 58
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdeafd14cf78f9418428c2e7285972d
+      internalID: -214189504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_103
+      rect:
+        serializedVersion: 2
+        x: 13217
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420725c49df3c0c439227b212c94f984
+      internalID: 1540505520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_104
+      rect:
+        serializedVersion: 2
+        x: 13346
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dbc54b0154fd5438f76a70172c84c4
+      internalID: -477550753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_105
+      rect:
+        serializedVersion: 2
+        x: 13475
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d31fbc953962a4c88305173c0dba43
+      internalID: 1551057206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_106
+      rect:
+        serializedVersion: 2
+        x: 13603
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ce294b1b6f9fc41b038b1c0984ca56
+      internalID: -304924060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_107
+      rect:
+        serializedVersion: 2
+        x: 13729
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a663d5f96dfefe44a8ea0455a1d60e1
+      internalID: 1551139900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_108
+      rect:
+        serializedVersion: 2
+        x: 13858
+        y: 0
+        width: 55
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd90fb16ee943634aa0f2c421692cd9e
+      internalID: 1209691978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_109
+      rect:
+        serializedVersion: 2
+        x: 13985
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4017e505a5499b048b13b47d3bb31863
+      internalID: 195305701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_110
+      rect:
+        serializedVersion: 2
+        x: 14114
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85c83524d9bd354daab598cb2ce72b7
+      internalID: 1114577216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_111
+      rect:
+        serializedVersion: 2
+        x: 14242
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f060b0b533bf0e345981ad580ee27f94
+      internalID: -1996274047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_112
+      rect:
+        serializedVersion: 2
+        x: 14371
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ebf314943cf73468267f01c91b4071
+      internalID: 1766110911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_113
+      rect:
+        serializedVersion: 2
+        x: 14496
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182fa56f4f8d68648b9a894d01eb5c20
+      internalID: 1775911529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_114
+      rect:
+        serializedVersion: 2
+        x: 14624
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e70684c0e107cf4e9f2ab4322a4122e
+      internalID: -667200406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_115
+      rect:
+        serializedVersion: 2
+        x: 14753
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c9d6a8d709dc84999261e966d2c1f9
+      internalID: -470952978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_116
+      rect:
+        serializedVersion: 2
+        x: 14881
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1af50ba7a218842bd2c239a834f954
+      internalID: 474294397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_117
+      rect:
+        serializedVersion: 2
+        x: 15010
+        y: 0
+        width: 53
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c9607b2a61df84f83ee65fb1546c0e
+      internalID: -114900904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_118
+      rect:
+        serializedVersion: 2
+        x: 15135
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210923ed08f15b9418dcd5265819dfba
+      internalID: 175698050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_119
+      rect:
+        serializedVersion: 2
+        x: 15263
+        y: 0
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eebc2c71fb79f344be14e26bf3b8a5a
+      internalID: -1130808187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InjuredIdle.FR_120
+      rect:
+        serializedVersion: 2
+        x: 15392
+        y: 0
+        width: 56
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265379bc51f988a4b8ce58fa5d83fcff
+      internalID: -1408138275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 70d56ceabef7ec04a92f0011eebef32f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      InjuredIdle.FR_107: 1551139900
+      InjuredIdle.FR_10: 795746928
+      InjuredIdle.FR_37: 178123132
+      InjuredIdle.FR_66: 1889089463
+      InjuredIdle.FR_65: -909227814
+      InjuredIdle.FR_1: 1913270083
+      InjuredIdle.FR_120: -1408138275
+      InjuredIdle.FR_74: -252599284
+      InjuredIdle.FR_117: -114900904
+      InjuredIdle.FR_77: 1301198723
+      InjuredIdle.FR_83: -1621344345
+      InjuredIdle.FR_85: -1637039857
+      InjuredIdle.FR_69: 302205257
+      InjuredIdle.FR_55: -769184035
+      InjuredIdle.FR_97: 862019506
+      InjuredIdle.FR_70: -89170658
+      InjuredIdle.FR_93: -1487168875
+      InjuredIdle.FR_104: -477550753
+      InjuredIdle.FR_109: 195305701
+      InjuredIdle.FR_52: -1643261328
+      InjuredIdle.FR_28: -200875489
+      InjuredIdle.FR_64: -2066356109
+      InjuredIdle.FR_91: -638676238
+      InjuredIdle.FR_35: 1124185170
+      InjuredIdle.FR_49: -78226469
+      InjuredIdle.FR_87: 1464342787
+      InjuredIdle.FR_113: 1775911529
+      InjuredIdle.FR_44: 674862884
+      InjuredIdle.FR_14: 1721966797
+      InjuredIdle.FR_13: -529518912
+      InjuredIdle.FR_80: 731610361
+      InjuredIdle.FR_100: 1962098684
+      InjuredIdle.FR_20: -1286666366
+      InjuredIdle.FR_71: 1913917872
+      InjuredIdle.FR_26: -144984430
+      InjuredIdle.FR_92: 2055494454
+      InjuredIdle.FR_95: -723806227
+      InjuredIdle.FR_40: 482896742
+      InjuredIdle.FR_119: -1130808187
+      InjuredIdle.FR_27: -1216119921
+      InjuredIdle.FR_38: -1078608341
+      InjuredIdle.FR_82: -910577531
+      InjuredIdle.FR_31: 381239323
+      InjuredIdle.FR_3: 535457609
+      InjuredIdle.FR_75: -1318130098
+      InjuredIdle.FR_61: -155231617
+      InjuredIdle.FR_51: -1662973706
+      InjuredIdle.FR_76: -1574642898
+      InjuredIdle.FR_39: 996579574
+      InjuredIdle.FR_17: 1936994537
+      InjuredIdle.FR_29: 880758206
+      InjuredIdle.FR_21: -140701225
+      InjuredIdle.FR_32: -1982188101
+      InjuredIdle.FR_50: -2078699573
+      InjuredIdle.FR_62: 1745466333
+      InjuredIdle.FR_19: -440509210
+      InjuredIdle.FR_11: 60396072
+      InjuredIdle.FR_33: -132456182
+      InjuredIdle.FR_12: 759182152
+      InjuredIdle.FR_25: 851192283
+      InjuredIdle.FR_84: -400467270
+      InjuredIdle.FR_15: -407640645
+      InjuredIdle.FR_102: -214189504
+      InjuredIdle.FR_88: 679099601
+      InjuredIdle.FR_68: -447425308
+      InjuredIdle.FR_0: 707667818
+      InjuredIdle.FR_24: -291319365
+      InjuredIdle.FR_4: 316079740
+      InjuredIdle.FR_114: -667200406
+      InjuredIdle.FR_22: -138431576
+      InjuredIdle.FR_101: -1375051180
+      InjuredIdle.FR_54: -2078647880
+      InjuredIdle.FR_9: -957347219
+      InjuredIdle.FR_46: 1356952012
+      InjuredIdle.FR_59: -999721288
+      InjuredIdle.FR_47: -1726048724
+      InjuredIdle.FR_56: 529177712
+      InjuredIdle.FR_6: -1330619390
+      InjuredIdle.FR_30: -1014589538
+      InjuredIdle.FR_110: 1114577216
+      InjuredIdle.FR_8: 859722077
+      InjuredIdle.FR_98: -2058268422
+      InjuredIdle.FR_89: -1926606310
+      InjuredIdle.FR_16: -1001823518
+      InjuredIdle.FR_43: -1497565817
+      InjuredIdle.FR_78: 782811628
+      InjuredIdle.FR_106: -304924060
+      InjuredIdle.FR_18: -2000048013
+      InjuredIdle.FR_57: 1877566724
+      InjuredIdle.FR_7: -1240177722
+      InjuredIdle.FR_36: 1278567983
+      InjuredIdle.FR_90: 1593561788
+      InjuredIdle.FR_41: 537515038
+      InjuredIdle.FR_53: -664857114
+      InjuredIdle.FR_5: 63205034
+      InjuredIdle.FR_96: -291423448
+      InjuredIdle.FR_79: 29110055
+      InjuredIdle.FR_108: 1209691978
+      InjuredIdle.FR_81: -642270815
+      InjuredIdle.FR_99: 267183983
+      InjuredIdle.FR_42: 2074635240
+      InjuredIdle.FR_58: 728757024
+      InjuredIdle.FR_73: -225121826
+      InjuredIdle.FR_60: 189924440
+      InjuredIdle.FR_115: -470952978
+      InjuredIdle.FR_112: 1766110911
+      InjuredIdle.FR_118: 175698050
+      InjuredIdle.FR_45: -2080188717
+      InjuredIdle.FR_72: 995383058
+      InjuredIdle.FR_111: -1996274047
+      InjuredIdle.FR_105: 1551057206
+      InjuredIdle.FR_67: 1242104338
+      InjuredIdle.FR_23: -776146369
+      InjuredIdle.FR_34: -192312123
+      InjuredIdle.FR_48: -1362991241
+      InjuredIdle.FR_86: -1298366688
+      InjuredIdle.FR_116: 474294397
+      InjuredIdle.FR_94: -1677441978
+      InjuredIdle.FR_63: -1092655337
+      InjuredIdle.FR_103: 1540505520
+      InjuredIdle.FR_2: -1174229448
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
