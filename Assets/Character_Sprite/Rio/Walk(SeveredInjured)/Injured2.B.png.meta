@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,10 +66,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -684,7 +684,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Injured2.B_20: 1438749012
       Injured2.B_4: 926409062
       Injured2.B_19: 94423603
       Injured2.B_5: -663810594
@@ -706,6 +705,7 @@ TextureImporter:
       Injured2.B_15: -1762043079
       Injured2.B_14: 148414446
       Injured2.B_22: -538692314
+      Injured2.B_20: 1438749012
       Injured2.B_8: -2142778523
       Injured2.B_0: -1165105363
       Injured2.B_12: 275038413

@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,10 +66,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1809,11 +1809,11 @@ TextureImporter:
       push.FR_59: 1218921317
       push.FR_49: -1963205177
       push.FR_16: -1651040268
-      push.FR_2: -741206133
-      push.FR_29: -1233095816
       push.FR_56: -802125107
-      push.FR_23: 1318983905
+      push.FR_29: -1233095816
       push.FR_71: -388304419
+      push.FR_23: 1318983905
+      push.FR_2: -741206133
       push.FR_74: -2001271837
       push.FR_4: -2122493523
       push.FR_0: 1788865146

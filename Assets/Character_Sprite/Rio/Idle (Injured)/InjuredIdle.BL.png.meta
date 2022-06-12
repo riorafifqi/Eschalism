@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,10 +66,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -2708,7 +2708,6 @@ TextureImporter:
       InjuredIdle.BL_66: -1176491080
       InjuredIdle.BL_25: -331901029
       InjuredIdle.BL_112: -1569646424
-      InjuredIdle.BL_31: 62932438
       InjuredIdle.BL_109: -1417419907
       InjuredIdle.BL_94: 1323193192
       InjuredIdle.BL_61: 208130752
@@ -2788,17 +2787,18 @@ TextureImporter:
       InjuredIdle.BL_77: -2075387662
       InjuredIdle.BL_65: -1108100695
       InjuredIdle.BL_114: 514433911
+      InjuredIdle.BL_10: -950339141
       InjuredIdle.BL_46: 1432400660
-      InjuredIdle.BL_117: 1610021398
       InjuredIdle.BL_110: 2108793936
+      InjuredIdle.BL_117: 1610021398
+      InjuredIdle.BL_31: 62932438
+      InjuredIdle.BL_53: -241142380
       InjuredIdle.BL_4: 827433267
       InjuredIdle.BL_95: -771242850
-      InjuredIdle.BL_53: -241142380
-      InjuredIdle.BL_10: -950339141
+      InjuredIdle.BL_89: -1629099204
       InjuredIdle.BL_92: 656227719
       InjuredIdle.BL_87: 823181785
       InjuredIdle.BL_60: -1101610456
-      InjuredIdle.BL_89: -1629099204
       InjuredIdle.BL_108: 853416632
   spritePackingTag: 
   pSDRemoveMatte: 0

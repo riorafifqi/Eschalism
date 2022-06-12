@@ -1660,7 +1660,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9973263, y: 1}
+    m_SensorSize: {x: 1.8634752, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
