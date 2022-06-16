@@ -6,6 +6,11 @@ public class CoatPickup : Interactable
 {
     public Animator animator;
 
+    public override void Awake()
+    {
+        base.Awake();
+        animator.SetBool("InCoat", false);
+    }
     public override void Interact()
     {
         base.Interact();
