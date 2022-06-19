@@ -18,27 +18,28 @@ public class pazel_listrik : MonoBehaviour
     private void Start()
     {
         ctek = ctekan.transform;
-        rot = ctek.localEulerAngles;
-        pos = ctek.localPosition;
+        rot = transform.localEulerAngles;
+        pos = transform.localPosition;
     }
 
     void OnMouseDown()
     {
+        Debug.Log("Object Pressed");
         AudioSource audio = GetComponent<AudioSource>();
         audio.pitch = (Random.Range(1 - 0.2f, 1 + 0.2f));
         if (!isBroken)
         {
             if (!isActive)
             {
-                ctek.Rotate(new Vector3(76,0,0));
-                ctek.localPosition = new Vector3(x, y, ctek.localPosition.z);
+                transform.Rotate(new Vector3(76,0,0));
+                transform.localPosition = new Vector3(x, y, transform.localPosition.z);
                 isActive = true;
                 audio.PlayOneShot(on, 0.2f);
             }
             else
             {
-                ctek.localEulerAngles = rot;
-                ctek.localPosition = pos;
+                transform.localEulerAngles = rot;
+                transform.localPosition = pos;
                 isActive = false;
                 audio.PlayOneShot(off, 0.2f);
             }
