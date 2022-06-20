@@ -23,6 +23,7 @@ public class Inventory : MonoBehaviour
 
     public List<Item> items = new List<Item>();
     public int space = 20;
+    public Animator inventoryAnimator;
 
     public bool Add (Item item)
     {
@@ -36,6 +37,8 @@ public class Inventory : MonoBehaviour
             else
             {
                 items.Add(item);
+                inventoryAnimator.SetBool("IsOpen", true);
+                InventoryOpen.mouseOver = true;
 
                 if (onItemChangedCallback != null)
                     onItemChangedCallback.Invoke();

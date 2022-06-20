@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class InventoryUI : MonoBehaviour
 {
@@ -16,12 +17,6 @@ public class InventoryUI : MonoBehaviour
         inventory.onItemChangedCallback += UpdateUI;
 
         slots = itemsParent.GetComponentsInChildren<InventorySlot>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     void UpdateUI ()
