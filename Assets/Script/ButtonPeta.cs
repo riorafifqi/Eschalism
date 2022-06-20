@@ -8,6 +8,8 @@ public class ButtonPeta : MonoBehaviour
     private Vector3 def;
     private Vector3 tar;
 
+    public string Code;
+
     private void Start()
     {
         def = this.GetComponent<Transform>().position;
@@ -28,6 +30,20 @@ public class ButtonPeta : MonoBehaviour
         } else
         {
             transform.position = def;
+        }
+    }
+
+    private void OnMouseDown()
+    {
+        if (isPressed)
+        {
+            PetaPuzzleManager.petaPass = PetaPuzzleManager.petaPass.Remove(PetaPuzzleManager.petaPass.Length - 2, 2);
+            isPressed = false;
+        }
+        else
+        {
+            PetaPuzzleManager.petaPass = PetaPuzzleManager.petaPass + Code;
+            isPressed = true;
         }
     }
 }

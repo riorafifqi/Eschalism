@@ -7,6 +7,7 @@ public class ItemClick : ItemPickup
     private void OnMouseDown()
     {
         Click();
+        Destroy(gameObject);
     }
 
     public void Click()
