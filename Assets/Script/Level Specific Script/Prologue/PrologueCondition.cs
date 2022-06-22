@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PrologueCondition : MonoBehaviour
@@ -10,12 +8,19 @@ public class PrologueCondition : MonoBehaviour
 
     public Interactable[] interactablesPhone;
     public Interactable[] interactablesCoat;
+    public AudioSource ost;
 
+    private bool isOstPlaying = false;
 
     // Update is called once per frame
     void Update()
     {
         ConditionOne();
+    }
+
+    private void Awake()
+    {
+        ost = GetComponent<AudioSource>();
     }
 
     public void ConditionOne()
@@ -40,6 +45,11 @@ public class PrologueCondition : MonoBehaviour
             }
 
             // Start Second Condition
+            if (!isOstPlaying)
+            {
+                ost.Play();
+                isOstPlaying = true;
+            }
             ConditionTwo();
         }
     }
