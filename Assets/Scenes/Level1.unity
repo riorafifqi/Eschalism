@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.17980957, g: 0.17980957, b: 0.17980957, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1957,7 +1957,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9973263, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -7307,7 +7307,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9973263, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -12527,7 +12527,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9973263, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -16387,8 +16387,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: ddbc537f6ee4e234bbb86c1d8126a919, type: 2}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.45490196}
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.43137255}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -21734,7 +21734,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9973263, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
