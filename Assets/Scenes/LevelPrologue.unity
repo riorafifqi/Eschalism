@@ -663,7 +663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - sentence: There is a voicemail
+  - sentence: There is a <color=red>voicemail</color>
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
@@ -3781,7 +3781,6 @@ GameObject:
   - component: {fileID: 978524576}
   - component: {fileID: 978524575}
   - component: {fileID: 978524574}
-  - component: {fileID: 978524573}
   - component: {fileID: 978524572}
   m_Layer: 0
   m_Name: Main Camera (1)
@@ -3914,18 +3913,6 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
---- !u!114 &978524573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978524571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &978524574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7964,7 +7951,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9946524, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -8624,7 +8611,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
-  - sentence: Better put on my coat quick
+  - sentence: Better put on my <color=red>coat</color> quick
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
@@ -14190,7 +14177,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: afb2f4c9ce81921498fafc16a7f2d58d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: ???
-  - sentence: As good as your sister
+  - sentence: As good as your <color=red>sister</color>
     characterImage: {fileID: 21300000, guid: afb2f4c9ce81921498fafc16a7f2d58d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: ???
@@ -14198,7 +14185,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: afb2f4c9ce81921498fafc16a7f2d58d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: ???
-  - sentence: Before something happened to her
+  - sentence: Before <color=red>something</color> happened to <color=red>her</color>
     characterImage: {fileID: 21300000, guid: afb2f4c9ce81921498fafc16a7f2d58d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: ???
@@ -14214,7 +14201,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
-  - sentence: Rea is in trouble!!
+  - sentence: <color=red>Rea</color> is in trouble!!
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio

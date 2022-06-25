@@ -3,7 +3,19 @@ guid: 264142dad00a7094b947e7ce515be4de
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - placeHolder: {instanceID: 0}
+  - illuRio: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
+  - illuRea: {instanceID: 0}
+  - illuDoctor: {instanceID: 0}
+  - enemy: {instanceID: 0}
+  - characterDialog: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
+  - narratorDialog: {fileID: 7577905307255757061, guid: 6d8c381ca1d41db41aef179269322241, type: 3}
+  - dialogueText: {instanceID: 0}
+  - dialogueBox: {instanceID: 0}
+  - characterImage: {instanceID: 0}
+  - dialogueBoxImage: {instanceID: 0}
+  - name: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -440,7 +440,6 @@ GameObject:
   - component: {fileID: 49845987}
   - component: {fileID: 49845986}
   - component: {fileID: 49845990}
-  - component: {fileID: 49845989}
   - component: {fileID: 49845991}
   - component: {fileID: 49845992}
   m_Layer: 0
@@ -528,18 +527,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49845984}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &49845989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 49845984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &49845990
 Light:
   m_ObjectHideFlags: 0
@@ -893,7 +880,6 @@ GameObject:
   - component: {fileID: 114218644}
   - component: {fileID: 114218643}
   - component: {fileID: 114218642}
-  - component: {fileID: 114218641}
   - component: {fileID: 114218640}
   - component: {fileID: 114218646}
   m_Layer: 0
@@ -932,18 +918,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPressed: 0
   Code: AN
---- !u!114 &114218641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114218638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &114218642
 Light:
   m_ObjectHideFlags: 0
@@ -1392,7 +1366,6 @@ GameObject:
   m_Component:
   - component: {fileID: 217348812}
   - component: {fileID: 217348811}
-  - component: {fileID: 217348813}
   - component: {fileID: 217348814}
   - component: {fileID: 217348815}
   m_Layer: 0
@@ -1479,18 +1452,6 @@ Transform:
   m_Father: {fileID: 543450652627435096}
   m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &217348813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 217348810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &217348814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1641,7 +1602,6 @@ GameObject:
   - component: {fileID: 219607830}
   - component: {fileID: 219607829}
   - component: {fileID: 219607828}
-  - component: {fileID: 219607827}
   - component: {fileID: 219607831}
   - component: {fileID: 219607832}
   m_Layer: 0
@@ -1651,18 +1611,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &219607827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 219607826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!81 &219607828
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1883,7 +1831,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9946524, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -2152,7 +2100,6 @@ GameObject:
   m_Component:
   - component: {fileID: 295818247}
   - component: {fileID: 295818249}
-  - component: {fileID: 295818248}
   - component: {fileID: 295818250}
   m_Layer: 0
   m_Name: ctekan5
@@ -2176,18 +2123,6 @@ Transform:
   m_Father: {fileID: 736783468}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &295818248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295818246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &295818249
 Light:
   m_ObjectHideFlags: 0
@@ -2640,7 +2575,6 @@ GameObject:
   m_Component:
   - component: {fileID: 324784881}
   - component: {fileID: 324784883}
-  - component: {fileID: 324784882}
   - component: {fileID: 324784884}
   - component: {fileID: 324784885}
   m_Layer: 0
@@ -2665,18 +2599,6 @@ Transform:
   m_Father: {fileID: 543450652627435096}
   m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &324784882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324784880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &324784883
 Light:
   m_ObjectHideFlags: 0
@@ -3231,7 +3153,6 @@ GameObject:
   - component: {fileID: 385339508}
   - component: {fileID: 385339507}
   - component: {fileID: 385339506}
-  - component: {fileID: 385339505}
   - component: {fileID: 385339504}
   - component: {fileID: 385339510}
   m_Layer: 0
@@ -3270,18 +3191,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPressed: 0
   Code: AF
---- !u!114 &385339505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 385339502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &385339506
 Light:
   m_ObjectHideFlags: 0
@@ -4444,7 +4353,6 @@ GameObject:
   - component: {fileID: 501869978}
   - component: {fileID: 501869977}
   - component: {fileID: 501869976}
-  - component: {fileID: 501869975}
   - component: {fileID: 501869974}
   - component: {fileID: 501869980}
   m_Layer: 0
@@ -4483,18 +4391,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPressed: 0
   Code: NA
---- !u!114 &501869975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 501869972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &501869976
 Light:
   m_ObjectHideFlags: 0
@@ -5871,7 +5767,6 @@ GameObject:
   m_Component:
   - component: {fileID: 674866000}
   - component: {fileID: 674866002}
-  - component: {fileID: 674866001}
   - component: {fileID: 674866003}
   m_Layer: 0
   m_Name: ctekan9
@@ -5895,18 +5790,6 @@ Transform:
   m_Father: {fileID: 736783468}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &674866001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 674865999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &674866002
 Light:
   m_ObjectHideFlags: 0
@@ -6367,7 +6250,6 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
-  - component: {fileID: 705507996}
   - component: {fileID: 705507997}
   m_Layer: 0
   m_Name: Directional Light
@@ -6453,18 +6335,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &705507996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 705507993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &705507997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6869,7 +6739,6 @@ GameObject:
   - component: {fileID: 786632688}
   - component: {fileID: 786632687}
   - component: {fileID: 786632686}
-  - component: {fileID: 786632685}
   - component: {fileID: 786632689}
   - component: {fileID: 786632690}
   m_Layer: 0
@@ -6879,18 +6748,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &786632685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786632684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!81 &786632686
 AudioListener:
   m_ObjectHideFlags: 0
@@ -7111,7 +6968,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9946524, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -7446,7 +7303,6 @@ GameObject:
   m_Component:
   - component: {fileID: 880054024}
   - component: {fileID: 880054026}
-  - component: {fileID: 880054025}
   - component: {fileID: 880054027}
   m_Layer: 0
   m_Name: ctekan2
@@ -7470,18 +7326,6 @@ Transform:
   m_Father: {fileID: 736783468}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &880054025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880054023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &880054026
 Light:
   m_ObjectHideFlags: 0
@@ -8316,7 +8160,6 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194231}
-  - component: {fileID: 963194232}
   - component: {fileID: 963194233}
   m_Layer: 0
   m_Name: Main Camera
@@ -8445,18 +8288,6 @@ MonoBehaviour:
   inTheWayObjects: []
   transparentObjects: []
   character: {fileID: 1975382131}
---- !u!114 &963194232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &963194233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8871,7 +8702,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1013088658}
   - component: {fileID: 1013088660}
-  - component: {fileID: 1013088659}
   - component: {fileID: 1013088661}
   m_Layer: 0
   m_Name: ctekan1
@@ -8895,18 +8725,6 @@ Transform:
   m_Father: {fileID: 736783468}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1013088659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1013088657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1013088660
 Light:
   m_ObjectHideFlags: 0
@@ -11715,7 +11533,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1256048340}
   - component: {fileID: 1256048344}
-  - component: {fileID: 1256048343}
   - component: {fileID: 1256048342}
   - component: {fileID: 1256048341}
   m_Layer: 0
@@ -11879,18 +11696,6 @@ MonoBehaviour:
   timeDelay: 0
   minVal: 1
   maxVal: 2
---- !u!114 &1256048343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1256048339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1256048344
 Light:
   m_ObjectHideFlags: 0
@@ -11964,7 +11769,6 @@ GameObject:
   - component: {fileID: 1272023402}
   - component: {fileID: 1272023401}
   - component: {fileID: 1272023400}
-  - component: {fileID: 1272023399}
   - component: {fileID: 1272023403}
   - component: {fileID: 1272023404}
   m_Layer: 0
@@ -11974,18 +11778,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1272023399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1272023398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!81 &1272023400
 AudioListener:
   m_ObjectHideFlags: 0
@@ -12206,7 +11998,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9946524, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -12564,7 +12356,6 @@ GameObject:
   - component: {fileID: 1313949540}
   - component: {fileID: 1313949539}
   - component: {fileID: 1313949538}
-  - component: {fileID: 1313949537}
   - component: {fileID: 1313949536}
   - component: {fileID: 1313949542}
   m_Layer: 0
@@ -12603,18 +12394,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPressed: 0
   Code: EU
---- !u!114 &1313949537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1313949534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1313949538
 Light:
   m_ObjectHideFlags: 0
@@ -13045,7 +12824,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1368871785}
   - component: {fileID: 1368871788}
-  - component: {fileID: 1368871787}
   - component: {fileID: 1368871786}
   m_Layer: 0
   m_Name: ctekan7
@@ -13191,18 +12969,6 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
---- !u!114 &1368871787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1368871784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1368871788
 Light:
   m_ObjectHideFlags: 0
@@ -13575,7 +13341,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1476554766}
   - component: {fileID: 1476554768}
-  - component: {fileID: 1476554767}
   - component: {fileID: 1476554769}
   m_Layer: 0
   m_Name: ctekan12
@@ -13599,18 +13364,6 @@ Transform:
   m_Father: {fileID: 736783468}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1476554767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476554765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1476554768
 Light:
   m_ObjectHideFlags: 0
@@ -14207,7 +13960,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1541533410}
   - component: {fileID: 1541533412}
-  - component: {fileID: 1541533411}
   - component: {fileID: 1541533413}
   m_Layer: 0
   m_Name: ctekan10
@@ -14231,18 +13983,6 @@ Transform:
   m_Father: {fileID: 736783468}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1541533411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541533409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1541533412
 Light:
   m_ObjectHideFlags: 0
@@ -15322,7 +15062,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1676688478}
   - component: {fileID: 1676688480}
-  - component: {fileID: 1676688479}
   - component: {fileID: 1676688481}
   m_Layer: 0
   m_Name: ctekan8
@@ -15346,18 +15085,6 @@ Transform:
   m_Father: {fileID: 736783468}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1676688479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1676688477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1676688480
 Light:
   m_ObjectHideFlags: 0
@@ -15603,7 +15330,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1729396831}
   - component: {fileID: 1729396833}
-  - component: {fileID: 1729396832}
   - component: {fileID: 1729396834}
   m_Layer: 0
   m_Name: ctekan11
@@ -15627,18 +15353,6 @@ Transform:
   m_Father: {fileID: 736783468}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1729396832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1729396830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1729396833
 Light:
   m_ObjectHideFlags: 0
@@ -21478,7 +21192,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9946524, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -21520,7 +21234,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1934688444}
   - component: {fileID: 1934688446}
-  - component: {fileID: 1934688445}
   - component: {fileID: 1934688447}
   m_Layer: 0
   m_Name: ctekan4
@@ -21544,18 +21257,6 @@ Transform:
   m_Father: {fileID: 736783468}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1934688445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934688443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1934688446
 Light:
   m_ObjectHideFlags: 0
@@ -22035,7 +21736,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1952915999}
   - component: {fileID: 1952916001}
-  - component: {fileID: 1952916000}
   - component: {fileID: 1952916002}
   m_Layer: 0
   m_Name: ctekan6
@@ -22059,18 +21759,6 @@ Transform:
   m_Father: {fileID: 736783468}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1952916000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1952915998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1952916001
 Light:
   m_ObjectHideFlags: 0
@@ -22577,7 +22265,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2035164643}
   - component: {fileID: 2035164645}
-  - component: {fileID: 2035164644}
   - component: {fileID: 2035164646}
   m_Layer: 0
   m_Name: ctekan3
@@ -22601,18 +22288,6 @@ Transform:
   m_Father: {fileID: 736783468}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2035164644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2035164642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &2035164645
 Light:
   m_ObjectHideFlags: 0
