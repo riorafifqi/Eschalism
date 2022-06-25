@@ -31,8 +31,8 @@ public class PetaPuzzleManager : MonoBehaviour
             }
             pw.Append(Password[i]);
         }
-        paper.dialogue.sentences[0] = pw.ToString();
-        //paper.description = pw.ToString();
+        //paper.dialogues.sentences[0] = pw.ToString();
+        paper.dialogues[0].sentence = pw.ToString();
 
         trigger = GameObject.Find("ThirdPhase").GetComponent<DialogueTrigger>();
     }

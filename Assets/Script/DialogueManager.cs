@@ -2,21 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class DialogueManager : MonoBehaviour
 {
-    public Queue<string> sentences;
+    public Queue<Dialogue> dialogues;
     public static bool isInDialogue = false;
     public bool isTyping = false;
-    public GameObject nextButton;
+    //public GameObject nextButton;
 
     public TMP_Text dialogueText;
     public GameObject dialogueBox;
+    public Image characterImage;
+    public Image dialogueBoxImage;
+    public TMP_Text name;
+
+    private void Awake()
+    {
+        dialogueBoxImage = dialogueBox.GetComponent<Image>();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        sentences = new Queue<string>();
+        dialogues = new Queue<Dialogue>();
         dialogueBox.SetActive(false);
     }
 
@@ -25,27 +35,27 @@ public class DialogueManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (isInDialogue == true && !isTyping)
-                FindObjectOfType<DialogueManager>().DisplayNext();
+                DisplayNext();
             // DisplayNext only available if dialogue box is active
         }
 
-        if (isTyping)
+        /*if (isTyping)
         {
             nextButton.SetActive(false);
         }
         else
-            nextButton.SetActive(true);
+            nextButton.SetActive(true);*/
     }
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(Dialogue[] tempDialogues)
     {
         isInDialogue = true;
         dialogueBox.SetActive(true);
-        sentences.Clear();
+        dialogues.Clear();
 
-        foreach (string sentence in dialogue.sentences)
+        foreach (Dialogue dialogue in tempDialogues)
         {
-            sentences.Enqueue(sentence);
+            dialogues.Enqueue(dialogue);
         }
         DisplayNext();
     }
@@ -53,14 +63,20 @@ public class DialogueManager : MonoBehaviour
     public void DisplayNext()
     {
         Debug.Log("Next Dialogue");
-        if (sentences.Count == 0)
+        if (dialogues.Count == 0)
         {
             EndDialogue();
             return;
         }
 
-        string sentence = sentences.Dequeue();
-        StartCoroutine(TypeSentence(sentence));
+        Dialogue currentDialogue = dialogues.Dequeue();
+
+        //dialogueBox = currentDialogue.DialoguePrefab;
+        name.text = currentDialogue.name;
+        dialogueBoxImage.sprite = currentDialogue.DialoguePrefab.GetComponent<Image>().sprite;
+        dialogueBox.transform.Find("DialogueText").GetComponent<RectTransform>().anchoredPosition = currentDialogue.DialoguePrefab.transform.Find("DialogueText").GetComponent<RectTransform>().anchoredPosition;
+        characterImage.sprite = currentDialogue.characterImage;
+        StartCoroutine(TypeSentence(currentDialogue.sentence));
     }
 
     IEnumerator TypeSentence(string sentence)

@@ -16,6 +16,8 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 5e67520bca75f7446a02f1356f215f1a, type: 3}
   isDefaultItem: 0
   description: AN, EU, SA, NA, AF
-  dialogue:
-    sentences:
-    - SA, AN, AF, NA, EU
+  dialogues:
+  - sentence: 
+    characterImage: {fileID: 21300000, guid: afb2f4c9ce81921498fafc16a7f2d58d, type: 3}
+    DialoguePrefab: {fileID: 7577905307255757061, guid: 6d8c381ca1d41db41aef179269322241, type: 3}
+    name: 
