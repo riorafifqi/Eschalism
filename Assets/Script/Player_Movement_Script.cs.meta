@@ -3,7 +3,11 @@ guid: b11d2ce02f9879f4fb33d477a736b185
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - player_Rb: {instanceID: 0}
+  - world_Rotation: {instanceID: 0}
+  - anim: {instanceID: 0}
+  - footstep: {fileID: 8300000, guid: fa3186f7a3ec14b4da0d80ceb9120d74, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

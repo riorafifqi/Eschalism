@@ -18,6 +18,9 @@ public class DialogueManager : MonoBehaviour
     public Image dialogueBoxImage;
     public TMP_Text name;
 
+    public AudioClip typing;
+    public AudioClip next;
+
     private void Awake()
     {
         dialogueBoxImage = dialogueBox.GetComponent<Image>();
@@ -35,7 +38,9 @@ public class DialogueManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (isInDialogue == true && !isTyping)
+            {
                 DisplayNext();
+            }
             // DisplayNext only available if dialogue box is active
         }
 
@@ -63,6 +68,9 @@ public class DialogueManager : MonoBehaviour
     public void DisplayNext()
     {
         Debug.Log("Next Dialogue");
+        GetComponent<AudioSource>().pitch = 1;
+        GetComponent<AudioSource>().volume = 1;
+        GetComponent<AudioSource>().PlayOneShot(next);
         if (dialogues.Count == 0)
         {
             EndDialogue();
@@ -86,6 +94,7 @@ public class DialogueManager : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
+            typingRandomize();
             yield return null;
         }
         isTyping = false;
@@ -96,5 +105,12 @@ public class DialogueManager : MonoBehaviour
         isInDialogue = false;
         dialogueBox.SetActive(false);
         Debug.Log("End Dialogue");
+    }
+
+    void typingRandomize()
+    {
+        GetComponent<AudioSource>().pitch = (Random.Range(0.3f, 0.9f));
+        GetComponent<AudioSource>().volume = 0.15f;
+        GetComponent<AudioSource>().PlayOneShot(typing);
     }
 }

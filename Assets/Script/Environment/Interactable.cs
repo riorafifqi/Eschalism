@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Interactable : MonoBehaviour
@@ -41,7 +39,7 @@ public class Interactable : MonoBehaviour
         {
             // Insert "if near, highlight object" code here
             highlight.enabled = true;
-            if (Input.GetKeyDown(KeyCode.F)  && !DialogueManager.isInDialogue)
+            if (Input.GetKeyDown(KeyCode.F) && !DialogueManager.isInDialogue)
             {
                 Interact();
             }

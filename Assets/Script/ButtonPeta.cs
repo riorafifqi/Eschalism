@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ButtonPeta : MonoBehaviour
@@ -24,10 +22,11 @@ public class ButtonPeta : MonoBehaviour
 
     void Press(bool pressed)
     {
-        if(pressed)
+        if (pressed)
         {
             transform.position = tar;
-        } else
+        }
+        else
         {
             transform.position = def;
         }
@@ -45,5 +44,9 @@ public class ButtonPeta : MonoBehaviour
             PetaPuzzleManager.petaPass = PetaPuzzleManager.petaPass + Code;
             isPressed = true;
         }
+
+        AudioSource audioSource = GetComponent<AudioSource>();
+        audioSource.pitch = (Random.Range(0.6f, 1.3f));
+        audioSource.Play();
     }
 }

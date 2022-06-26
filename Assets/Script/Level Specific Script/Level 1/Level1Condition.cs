@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Level1Condition : MonoBehaviour
@@ -9,9 +7,14 @@ public class Level1Condition : MonoBehaviour
     //public DialogueTrigger[] triggers;
     public DialogueTrigger triggerFixLight;
 
+    public AudioClip ost;
+
     private void Awake()
     {
         animator.SetBool("InCoat", true);
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.clip = ost;
+        audio.Play();
     }
 
     // Update is called once per frame
@@ -19,7 +22,7 @@ public class Level1Condition : MonoBehaviour
     {
         if (!Pazel_listrik_manager.allIsFixed)
         {
-            for(int i = 0; i < interactables.Length; i++ )
+            for (int i = 0; i < interactables.Length; i++)
             {
                 // Change all dialoguetrigger component to dialoguetrigger attached in this component
                 interactables[i].trigger = gameObject.GetComponent<DialogueTrigger>();
