@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CoatPickup : Interactable
 {
     public Animator animator;
-
+    public AudioClip cloth;
     public override void Awake()
     {
         base.Awake();
@@ -17,11 +15,19 @@ public class CoatPickup : Interactable
         if (canInteract)
         {
             animator.SetBool("InCoat", true);
+            playSound();
             gameObject.SetActive(false);
         }
         else
         {
             trigger.TriggerDialogue();
         }
+    }
+
+    void playSound()
+    {
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.pitch = Random.Range(0.7f, 1.3f);
+        audio.PlayOneShot(cloth);
     }
 }

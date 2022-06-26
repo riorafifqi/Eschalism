@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DoorInteractable : Interactable
 {
     public LevelLoaderScript levelLoader;
+    public AudioClip[] openDoor;
 
     public override void Awake()
     {
@@ -19,15 +18,24 @@ public class DoorInteractable : Interactable
 
     public override void Interact()
     {
-        if(canInteract)
+        if (canInteract)
         {
             base.Interact();
             transform.eulerAngles = new Vector3(0, 45, 0);
+            playSound();
             levelLoader.LoadNextLevel();
         }
         else
         {
             trigger.TriggerDialogue();
         }
+    }
+
+    void playSound()
+    {
+        AudioSource audio = gameObject.GetComponent<AudioSource>();
+        AudioClip clip = openDoor[Random.Range(0, openDoor.Length)];
+        audio.pitch = Random.Range(0.7f, 1.2f);
+        audio.PlayOneShot(clip);
     }
 }
