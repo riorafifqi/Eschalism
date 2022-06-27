@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.17980957, g: 0.17980957, b: 0.17980957, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2025,7 +2025,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9946524, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -3280,7 +3280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - sentence: It looks like someone is planning something
+  - sentence: It looks like someone is <color=red>planning </color>something
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
@@ -6222,7 +6222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - sentence: Cool! a key
+  - sentence: Cool! a <color=red>key
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
@@ -7455,7 +7455,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9946524, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -7746,7 +7746,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
-  - sentence: I have to find the way to fix the light
+  - sentence: I have to find the way to <color=red>fix the light
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
@@ -12583,7 +12583,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9946524, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -13466,7 +13466,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
-  - sentence: And why are there books lying around everywhere?
+  - sentence: And why are there <color=red>books</color> lying around everywhere?
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
@@ -21874,7 +21874,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9946524, y: 1}
+    m_SensorSize: {x: 1.8599291, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -25782,7 +25782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - sentence: Maybe there's something behind all this books
+  - sentence: Maybe there's something <color=red>behind</color> all this <color=red>books</color>
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
@@ -26893,7 +26893,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
-  - sentence: The key must be somewhere around here
+  - sentence: The <color=red>key</color> must be somewhere around here
     characterImage: {fileID: 21300000, guid: 3b092f71dd236f64aa18e41fbba6326d, type: 3}
     DialoguePrefab: {fileID: 7577905307255757061, guid: 54a891384d5d5a74fac43b27144f6c06, type: 3}
     name: Rio
