@@ -30,11 +30,11 @@ public class InteractLockedDoor : Interactable
         playSound(unlocked);
     }
 
-    void playSound(bool islocked)
+    void playSound(bool isunlocked)
     {
         AudioSource audio = gameObject.GetComponent<AudioSource>();
         AudioClip clip;
-        if (islocked)
+        if (!isunlocked)
             clip = locked[Random.Range(0, opened.Length)];
         else
             clip = opened[Random.Range(0, locked.Length)];

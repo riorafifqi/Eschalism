@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Gun Part
   m_EditorClassIdentifier: 
   name: Gun Part
-  icon: {fileID: 21300000, guid: acc2c6f5c0918b343992c9341182ce2c, type: 3}
+  icon: {fileID: 21300000, guid: 4e581667fdd0fde4e9370aa88718827f, type: 3}
   isDefaultItem: 0
