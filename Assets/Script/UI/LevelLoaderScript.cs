@@ -28,5 +28,8 @@ public class LevelLoaderScript : MonoBehaviour
 
         // Load Scene
         SceneManager.LoadScene(levelIndex);
+
+        // Unload Scene
+        SceneManager.UnloadSceneAsync(levelIndex - 1);
     }
 }
