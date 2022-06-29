@@ -91,11 +91,25 @@ public class DialogueManager : MonoBehaviour
     {
         isTyping = true;
         dialogueText.text = "";
+
+        bool isTags = false;
+
         foreach (char letter in sentence.ToCharArray())
         {
-            dialogueText.text += letter;
-            typingRandomize();
-            yield return null;
+            if (letter == '<' || isTags)
+            {
+                isTags = true;
+                dialogueText.text += letter;
+                if (letter == '>')
+                    isTags = false;
+            }
+            else
+            {
+                dialogueText.text += letter;
+                typingRandomize();
+                yield return null;
+            }
+
         }
         isTyping = false;
     }
