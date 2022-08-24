@@ -11,7 +11,7 @@ public class InteractPuzzle : Interactable
 
     public CinemachineVirtualCamera playerCamera;
     public CinemachineVirtualCamera puzzleCamera;
-    private bool isInPuzzleCamera = false;
+    protected bool isInPuzzleCamera = false;
 
     public override void Awake()
     {
@@ -25,7 +25,6 @@ public class InteractPuzzle : Interactable
         trigger = gameObject.GetComponent<DialogueTrigger>();
     }
 
-    // Update is called once per frame
     public override void Update()
     {
         if (Vector3.Distance(player.transform.position, objectCenter) < radius)
