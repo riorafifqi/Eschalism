@@ -8,10 +8,13 @@ public class ItemClick : ItemPickup
     {
         Click();
         Destroy(gameObject);
+
+        if (trigger)
+            trigger.TriggerDialogue();
     }
 
     public void Click()
     {
-        base.Interact();
+        base.Pickup();
     }
 }

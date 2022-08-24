@@ -16,7 +16,9 @@ public class ItemPickup : Interactable
     {
         base.Interact();
         Pickup();
-        trigger.TriggerDialogue();
+
+        if(trigger)
+            trigger.TriggerDialogue();
     }
 
     public void Pickup()
