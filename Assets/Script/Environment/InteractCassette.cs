@@ -8,9 +8,16 @@ public class InteractCassette : InteractPuzzle
     public AudioSource casetteAudio;
 
     [SerializeField] Item casette;
-    [SerializeField] AudioClip[] morseCodeClips;
+    [SerializeField] CassetteScript[] morseCodeClips;
     AudioClip usedClip;
     [SerializeField] AudioClip emptyClip;
+    DoorPasswordManager doorPassword;
+
+    public override void Awake()
+    {
+        base.Awake();
+        doorPassword = GameObject.Find("GameManager").GetComponent<DoorPasswordManager>();
+    }
 
     public override void Start()
     {
@@ -18,7 +25,9 @@ public class InteractCassette : InteractPuzzle
 
         // randomize morseCodeClips & assign usedClip
         int randomIndex = Random.Range(0, morseCodeClips.Length - 1);
-        usedClip = morseCodeClips[randomIndex];
+        
+        usedClip = morseCodeClips[randomIndex].morseClip;
+        doorPassword.password = morseCodeClips[randomIndex].morseCode;
     }
 
     public override void Interact()

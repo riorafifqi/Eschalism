@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88ff46a85520ee444bf67af9a60c0367, type: 3}
+  m_Name: 6011
+  m_EditorClassIdentifier: 
+  morseClip: {fileID: 8300000, guid: 2e2a3b66051108f4694813d4f3e1ff6b, type: 3}
+  morseCode: 6011
