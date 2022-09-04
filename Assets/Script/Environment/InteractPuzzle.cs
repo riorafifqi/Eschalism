@@ -32,6 +32,7 @@ public class InteractPuzzle : Interactable
             // Insert "if near, highlight object" code here
             if(!isInPuzzleCamera)
                 highlight.enabled = !isActive;
+
             if (Input.GetKeyDown(KeyCode.F) && !DialogueManager.isInDialogue)
             {
                 if(!isInPuzzleCamera)
